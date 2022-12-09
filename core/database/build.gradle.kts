@@ -15,7 +15,18 @@ android {
         minSdk = 21
         targetSdk = 33
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "garcia.ludovic.photos.core.testing.PhotosTestRunner"
+
+        // Room
+        javaCompileOptions {
+            annotationProcessorOptions {
+                arguments += mapOf(
+                    "room.schemaLocation" to "$projectDir/src/main/room",
+                    "room.incremental" to "true",
+                    "room.expandProjection" to "true"
+                )
+            }
+        }
     }
     compileOptions {
         sourceCompatibility = JavaVersion.VERSION_1_8
@@ -27,14 +38,19 @@ android {
 }
 
 dependencies {
+    implementation(project(":core:common"))
+
     implementation(libs.androidx.compose.ui.graphics)
     implementation(libs.hilt.android)
     implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.room.ktx)
+    implementation(libs.room.runtime)
     implementation(libs.sqldelight.android.driver)
     implementation(libs.sqldelight.coroutines.extensions)
     implementation(libs.sqldelight.runtime)
 
     kapt(libs.hilt.android.compiler)
+    kapt(libs.room.compiler)
 
     testImplementation(project(":core:database-test"))
     testImplementation(project(":core:testing"))
@@ -44,6 +60,7 @@ dependencies {
     androidTestImplementation(project(":core:testing"))
 
     kaptAndroidTest(libs.hilt.android.compiler)
+    kaptAndroidTest(libs.room.compiler)
 }
 
 kapt {

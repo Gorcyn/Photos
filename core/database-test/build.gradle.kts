@@ -1,7 +1,9 @@
 @Suppress("DSL_SCOPE_VIOLATION") // TODO: Remove once KTIJ-19369 is fixed
 plugins {
     alias(libs.plugins.android.library)
+    alias(libs.plugins.hilt)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.kotlin.kapt)
 }
 
 android {
@@ -24,12 +26,23 @@ android {
 }
 
 dependencies {
+    implementation(project(":core:common"))
     implementation(project(":core:database"))
     implementation(project(":core:testing"))
 
     implementation(libs.kotlinx.coroutines.android)
+    implementation(libs.hilt.android)
+    implementation(libs.room.runtime)
     implementation(libs.sqldelight.android.driver)
     implementation(libs.sqldelight.coroutines.extensions)
     implementation(libs.sqldelight.runtime)
     implementation(libs.sqldelight.sqlite.driver)
+
+    kapt(libs.hilt.android.compiler)
+
+    kaptAndroidTest(libs.hilt.android.compiler)
+}
+
+kapt {
+    correctErrorTypes = true
 }

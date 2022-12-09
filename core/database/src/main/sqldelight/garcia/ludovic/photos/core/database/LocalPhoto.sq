@@ -1,0 +1,24 @@
+CREATE TABLE localPhoto (
+  id INTEGER AS Int NOT NULL PRIMARY KEY,
+  albumId INTEGER AS Int NOT NULL,
+  title TEXT NOT NULL,
+  url TEXT NOT NULL,
+  thumbnailUrl TEXT NOT NULL
+);
+
+CREATE INDEX photo_id ON localPhoto(id);
+
+selectAll:
+SELECT * FROM localPhoto ORDER BY id;
+
+select:
+SELECT * FROM localPhoto WHERE id = ?;
+
+save:
+INSERT OR REPLACE INTO localPhoto VALUES ?;
+
+delete:
+DELETE FROM localPhoto WHERE id = ?;
+
+deleteAll:
+DELETE FROM localPhoto;
