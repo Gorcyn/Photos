@@ -14,3 +14,15 @@ dependencyResolutionManagement {
 }
 rootProject.name = "Photos"
 include ':app'
+include ':core:common'
+include ':core:testing'
+include ':core:database'
+include ':core:database-test'
+include ':core:network'
+include ':core:network-test'
+include ':core:data'
+include ':core:data-test'
+include ':core:design'
+include ':core:design-test'
+include ':feature:gallery'
+include ':feature:photoDetails'
