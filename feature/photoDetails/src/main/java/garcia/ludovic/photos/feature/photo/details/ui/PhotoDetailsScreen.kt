@@ -33,9 +33,9 @@ import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.IntOffset
 import androidx.compose.ui.unit.dp
 import coil.compose.rememberAsyncImagePainter
-import coil.request.ImageRequest
 import garcia.ludovic.photos.core.data.model.Photo
 import garcia.ludovic.photos.core.design.theme.PhotosTheme
+import garcia.ludovic.photos.feature.common.image.CoilImageRequest
 import garcia.ludovic.photos.feature.photo.details.R
 import garcia.ludovic.photos.feature.photo.details.util.TransformGestures
 
@@ -47,13 +47,9 @@ fun PhotoDetailsScreen(
     configuration: Configuration = LocalConfiguration.current,
     onInfo: (photo: Photo) -> Unit = {}
 ) {
-    val imageRequest = ImageRequest.Builder(context)
-        .data(photo?.url)
-        .diskCacheKey("photo_$photoId")
-        .placeholderMemoryCacheKey("photo_thumbnail_$photoId")
-        .build()
+    val imageRequest = CoilImageRequest(context)
     val painter = rememberAsyncImagePainter(
-        model = imageRequest
+        model = imageRequest.photo(photoId, photo?.url)
     )
 
     var zoom by remember { mutableStateOf(1f) }

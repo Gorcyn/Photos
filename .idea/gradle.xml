@@ -23,6 +23,7 @@
             <option value="$PROJECT_DIR$/core/network-test" />
             <option value="$PROJECT_DIR$/core/testing" />
             <option value="$PROJECT_DIR$/feature" />
+            <option value="$PROJECT_DIR$/feature/common" />
             <option value="$PROJECT_DIR$/feature/gallery" />
             <option value="$PROJECT_DIR$/feature/photoDetails" />
           </set>

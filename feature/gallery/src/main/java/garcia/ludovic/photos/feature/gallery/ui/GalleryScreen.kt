@@ -36,11 +36,11 @@ import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 import coil.compose.rememberAsyncImagePainter
-import coil.request.ImageRequest
 import garcia.ludovic.photos.core.data.model.Photo
 import garcia.ludovic.photos.core.design.theme.PhotosTheme
 import garcia.ludovic.photos.core.design.ui.PhotosTopAppBar
 import garcia.ludovic.photos.core.design.ui.modifier.verticalScrollbar
+import garcia.ludovic.photos.feature.common.image.CoilImageRequest
 import garcia.ludovic.photos.feature.gallery.R
 import garcia.ludovic.photos.feature.gallery.model.DisplayStyle
 
@@ -61,6 +61,7 @@ fun GalleryScreen(
     onDisplayStyle: () -> Unit = {},
     onClick: (photoId: Int) -> Unit = {}
 ) {
+    val imageRequest = CoilImageRequest(context)
     val scrollBehavior = TopAppBarDefaults.enterAlwaysScrollBehavior(rememberTopAppBarState())
     Column(
         modifier = Modifier
@@ -104,11 +105,7 @@ fun GalleryScreen(
             ) {
                 items(items = photoList, key = { it.id }) { photo ->
                     val painter = rememberAsyncImagePainter(
-                        model = ImageRequest.Builder(context)
-                            .data(photo.thumbnailUrl)
-                            .diskCacheKey("photo_thumbnail_${photo.id}")
-                            .memoryCacheKey("photo_thumbnail_${photo.id}")
-                            .build()
+                        model = imageRequest.thumbnail(photo.id, photo.thumbnailUrl)
                     )
                     PhotoItem(
                         painter = painter,
