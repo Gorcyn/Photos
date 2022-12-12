@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gallery_title">Photos</string>
+    <string name="gallery_display_mode_grid_4">Show 4 by 4 grid</string>
+    <string name="gallery_display_mode_grid_2">Show 2 by 2 grid</string>
+
+    <string name="sync_not_available">We could not find any active internet connection. Update was interrupted.</string>
+    <string name="sync_unexpected_error">An unexpected error occurred. Please contact us.</string>
+</resources>

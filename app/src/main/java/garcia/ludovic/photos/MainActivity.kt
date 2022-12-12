@@ -16,6 +16,8 @@ import dagger.hilt.android.AndroidEntryPoint
 import garcia.ludovic.photos.core.design.PhotosApp
 import garcia.ludovic.photos.core.design.animation.animatedComposable
 import garcia.ludovic.photos.core.design.theme.PhotosTheme
+import garcia.ludovic.photos.feature.gallery.navigation.galleryNavigationRoute
+import garcia.ludovic.photos.feature.gallery.navigation.galleryRoute
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {
@@ -24,19 +26,9 @@ class MainActivity : ComponentActivity() {
         super.onCreate(savedInstanceState)
         WindowCompat.setDecorFitsSystemWindows(window, false)
         setContent {
-            PhotosApp(startDestination = "FirstScreen") { navController ->
-                animatedComposable("FirstScreen") {
-                    Box(
-                        contentAlignment = Alignment.Center,
-                        modifier = Modifier
-                            .fillMaxSize()
-                            .padding(16.dp)
-                            .clickable {
-                                navController.navigate("SecondScreen")
-                            }
-                    ) {
-                        Text("FirstScreen content", color = PhotosTheme.colorScheme.onBackground)
-                    }
+            PhotosApp(startDestination = galleryNavigationRoute) { navController ->
+                galleryRoute {
+                    navController.navigate("SecondScreen")
                 }
                 animatedComposable("SecondScreen") {
                     Box(
