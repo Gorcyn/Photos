@@ -14,7 +14,7 @@ android {
         minSdk = 21
         targetSdk = 33
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "garcia.ludovic.photos.core.testing.PhotosTestRunner"
     }
 
     compileOptions {
@@ -67,9 +67,9 @@ dependencies {
     androidTestImplementation(project(":core:data-test"))
     androidTestImplementation(project(":core:design-test"))
 
-    debugImplementation(libs.androidx.compose.ui.test.manifest)
-
     kaptAndroidTest(libs.hilt.android.compiler)
+
+    debugImplementation(libs.androidx.compose.ui.test.manifest)
 }
 
 kapt {

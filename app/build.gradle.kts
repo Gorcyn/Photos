@@ -59,10 +59,7 @@ dependencies {
     implementation(project(":feature:gallery"))
     implementation(project(":feature:photoDetails"))
 
-    implementation(libs.accompanist.navigation.animation)
-
     implementation(libs.androidx.activity.compose)
-    implementation(libs.androidx.compose.material3)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.hilt.android)
 
