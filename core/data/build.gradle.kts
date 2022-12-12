@@ -14,7 +14,7 @@ android {
         minSdk = 21
         targetSdk = 33
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "garcia.ludovic.photos.core.testing.PhotosTestRunner"
     }
 
     compileOptions {

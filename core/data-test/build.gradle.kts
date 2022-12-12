@@ -32,6 +32,8 @@ dependencies {
     implementation(libs.kotlinx.coroutines.android)
 
     kapt(libs.hilt.android.compiler)
+
+    kaptAndroidTest(libs.hilt.android.compiler)
 }
 
 kapt {
