@@ -1,7 +1,9 @@
 @Suppress("DSL_SCOPE_VIOLATION") // TODO: Remove once KTIJ-19369 is fixed
 plugins {
     alias(libs.plugins.android.library)
+    alias(libs.plugins.hilt)
     alias(libs.plugins.kotlin.android)
+    alias(libs.plugins.kotlin.kapt)
 }
 
 android {
@@ -12,7 +14,7 @@ android {
         minSdk = 21
         targetSdk = 33
 
-        testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
+        testInstrumentationRunner = "garcia.ludovic.photos.core.testing.PhotosTestRunner"
     }
 
     compileOptions {
@@ -47,6 +49,17 @@ dependencies {
     implementation(libs.androidx.lifecycle.viewmodel)
     implementation(libs.androidx.navigation.compose)
     implementation(libs.coil.compose)
+    implementation(libs.hilt.android)
 
-    testImplementation(project(":core:testing"))
+    kapt(libs.hilt.android.compiler)
+
+    androidTestImplementation(project(":core:common"))
+    androidTestImplementation(project(":core:design-test"))
+    androidTestImplementation(project(":core:testing"))
+
+    kaptAndroidTest(libs.hilt.android.compiler)
+}
+
+kapt {
+    correctErrorTypes = true
 }
