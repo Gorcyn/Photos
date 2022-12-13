@@ -80,6 +80,18 @@ fun PhotoDetailsScreen(
                     }
                 }
         ) {
+            Icon(
+                painterResource(id = R.drawable.ic_outline_image_not_supported_24),
+                contentDescription = "Photo placeholder",
+                tint = PhotosTheme.colorScheme.onBackground,
+                modifier = Modifier
+                    .offset { offset }
+                    .align(Alignment.Center)
+                    .aspectRatio(1f)
+                    .fillMaxSize()
+                    .padding(64.dp)
+                    .testTag("PhotoDetailsImagePlaceholder")
+            )
             Image(
                 modifier = Modifier
                     .offset { offset }
