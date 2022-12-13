@@ -79,10 +79,11 @@ fun PhotoDetailsScreen(
                         )
                     }
                 }
+                .testTag("PhotoDetailsImageBox")
         ) {
             Icon(
                 painterResource(id = R.drawable.ic_outline_image_not_supported_24),
-                contentDescription = "Photo placeholder",
+                contentDescription = stringResource(R.string.photo_details_photo_placeholder),
                 tint = PhotosTheme.colorScheme.onBackground,
                 modifier = Modifier
                     .offset { offset }

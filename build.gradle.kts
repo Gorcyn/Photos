@@ -8,6 +8,7 @@ plugins {
     alias(libs.plugins.kotlin.serialization) apply false
     alias(libs.plugins.secrets) apply false
     alias(libs.plugins.sqldelight) apply false
+    id("com.android.test") version "7.3.1" apply false
 }
 
 buildscript {

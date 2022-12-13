@@ -2,6 +2,7 @@
 <resources>
     <string name="photo_details_title">Details</string>
     <string name="photo_details_info_description">See photo details</string>
+    <string name="photo_details_photo_placeholder">Photo placeholder</string>
 
     <string name="photo_details_photo_url">Photo URL</string>
     <string name="photo_details_photo_thumbnail_url">Thumbnail URL</string>

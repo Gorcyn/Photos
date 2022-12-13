@@ -12,8 +12,11 @@ import androidx.compose.runtime.Composable
 import androidx.compose.runtime.CompositionLocalProvider
 import androidx.compose.runtime.DisposableEffect
 import androidx.compose.runtime.remember
+import androidx.compose.ui.ExperimentalComposeUiApi
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.testTag
+import androidx.compose.ui.semantics.semantics
+import androidx.compose.ui.semantics.testTagsAsResourceId
 import androidx.navigation.NavController
 import androidx.navigation.NavGraphBuilder
 import com.google.accompanist.navigation.animation.AnimatedNavHost
@@ -26,6 +29,7 @@ import garcia.ludovic.photos.core.design.theme.PhotosTheme
 
 @OptIn(
     ExperimentalAnimationApi::class,
+    ExperimentalComposeUiApi::class,
     ExperimentalMaterialNavigationApi::class,
     ExperimentalMaterial3Api::class
 )
@@ -57,7 +61,11 @@ fun PhotosApp(
                 snackbarHost = {
                     SnackbarHost(snackbarHostState)
                 },
-                modifier = Modifier.testTag("Scaffold")
+                modifier = Modifier
+                    .testTag("Scaffold")
+                    .semantics {
+                        testTagsAsResourceId = true
+                    }
             ) { paddingValues ->
                 ModalBottomSheetLayout(
                     bottomSheetNavigator,
