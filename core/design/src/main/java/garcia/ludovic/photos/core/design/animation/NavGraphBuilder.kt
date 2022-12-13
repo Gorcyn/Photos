@@ -10,8 +10,6 @@ import androidx.navigation.NavBackStackEntry
 import androidx.navigation.NavGraphBuilder
 import com.google.accompanist.navigation.animation.composable
 
-private const val DURATION_MILLIS = 250
-
 @OptIn(ExperimentalAnimationApi::class)
 fun NavGraphBuilder.animatedComposable(
     route: String,
@@ -22,16 +20,16 @@ fun NavGraphBuilder.animatedComposable(
         route = route,
         arguments = arguments,
         enterTransition = {
-            slideIntoContainer(SlideDirection.Start, animationSpec = tween(DURATION_MILLIS))
+            slideIntoContainer(SlideDirection.Start, animationSpec = tween(AnimationDuration.DEFAULT))
         },
         exitTransition = {
-            slideOutOfContainer(SlideDirection.Start, animationSpec = tween(DURATION_MILLIS))
+            slideOutOfContainer(SlideDirection.Start, animationSpec = tween(AnimationDuration.DEFAULT))
         },
         popEnterTransition = {
-            slideIntoContainer(SlideDirection.End, animationSpec = tween(DURATION_MILLIS))
+            slideIntoContainer(SlideDirection.End, animationSpec = tween(AnimationDuration.DEFAULT))
         },
         popExitTransition = {
-            slideOutOfContainer(SlideDirection.End, animationSpec = tween(DURATION_MILLIS))
+            slideOutOfContainer(SlideDirection.End, animationSpec = tween(AnimationDuration.DEFAULT))
         },
         content = content
     )

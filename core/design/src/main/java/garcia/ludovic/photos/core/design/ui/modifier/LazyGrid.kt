@@ -13,6 +13,7 @@ import androidx.compose.ui.geometry.Size
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.Dp
 import androidx.compose.ui.unit.dp
+import garcia.ludovic.photos.core.design.animation.AnimationDuration
 
 fun Modifier.verticalScrollbar(
     state: LazyGridState,
@@ -20,7 +21,9 @@ fun Modifier.verticalScrollbar(
     color: Color = Color.Black
 ): Modifier = composed {
     val targetAlpha = if (state.isScrollInProgress) 1f else 0f
-    val duration = if (state.isScrollInProgress) 150 else 500
+    val duration = AnimationDuration.DEFAULT.times(
+        if (state.isScrollInProgress) 0.5f else 2f
+    ).toInt()
 
     val alpha by animateFloatAsState(
         targetValue = targetAlpha,
