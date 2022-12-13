@@ -15,7 +15,13 @@ import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.OkHttpClient
 import okhttp3.logging.HttpLoggingInterceptor
 import retrofit2.Retrofit
+import java.util.concurrent.TimeUnit
 import javax.inject.Singleton
+
+private const val TIMEOUT_CONNECTION = 1L
+private const val TIMEOUT_WRITE = 1L
+private const val TIMEOUT_READ = 1L
+private val TIMEOUT_UNIT = TimeUnit.SECONDS
 
 @Module
 @InstallIn(SingletonComponent::class)
@@ -35,16 +41,24 @@ object NetworkModule {
 
     @Provides
     @Singleton
+    fun providesOkHttpClient(
+        loggingInterceptor: HttpLoggingInterceptor
+    ): OkHttpClient =
+        OkHttpClient.Builder()
+            .connectTimeout(TIMEOUT_CONNECTION, TIMEOUT_UNIT)
+            .writeTimeout(TIMEOUT_WRITE, TIMEOUT_UNIT)
+            .readTimeout(TIMEOUT_READ, TIMEOUT_UNIT)
+            .addInterceptor(loggingInterceptor)
+            .build()
+
+    @Provides
+    @Singleton
     fun providesPhotosNetworkApi(
         networkJson: Json,
-        loggingInterceptor: HttpLoggingInterceptor
+        okHttpClient: OkHttpClient
     ): PhotoNetworkApi = Retrofit.Builder()
         .baseUrl(BuildConfig.API_URL)
-        .client(
-            OkHttpClient.Builder()
-                .addInterceptor(loggingInterceptor)
-                .build()
-        )
+        .client(okHttpClient)
         .addConverterFactory(
             @OptIn(ExperimentalSerializationApi::class)
             networkJson.asConverterFactory("application/json".toMediaType())
