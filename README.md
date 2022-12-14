@@ -6,11 +6,13 @@
 
 ## Architecture
 
-[Recommended app architecture](https://developer.android.com/topic/architecture#recommended-app-arch)
-[Android app modularization](https://developer.android.com/topic/modularization)
+- [Recommended app architecture](https://developer.android.com/topic/architecture#recommended-app-arch)
+- [Android app modularization](https://developer.android.com/topic/modularization)
 
 ## Libraries
 
+- [SQLDelight](https://github.com/cashapp/sqldelight): SQL statements to Kotlin generator
+- [Room](https://developer.android.com/training/data-storage/room): persistence library through SQL
 - [Retrofit](https://github.com/square/retrofit): most popular HTTP client library
 - [Kotlin Coroutines](https://kotlinlang.org/docs/coroutines-overview.html): asynchronous and non-blocking
 - [Kotlinx Serialization](https://github.com/Kotlin/kotlinx.serialization): parsing, for json
