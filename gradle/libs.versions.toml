@@ -17,6 +17,7 @@ androidxTestRunner = "1.5.1"
 androidxTestRules = "1.5.0"
 androidxUiAutomator = "2.2.0"
 coil = "2.2.2"
+dokka = "1.8.20"
 hilt = "2.44.2"
 hiltNavigationCompose = "1.0.0"
 junit4 = "4.13.2"
@@ -80,12 +81,14 @@ sqldelight-sqlite-driver = { group = "com.squareup.sqldelight", name = "sqlite-d
 turbine = { group = "app.cash.turbine", name = "turbine", version.ref = "turbine" }
 
 # gradle-plugin
+dokka-basePlugin = { group = "org.jetbrains.dokka", name = "dokka-base", version.ref = "dokka" }
 sqldelight-gradlePlugin = { group = "com.squareup.sqldelight", name = "gradle-plugin", version.ref = "sqldelight" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "androidGradlePlugin" }
 android-library = { id = "com.android.library", version.ref = "androidGradlePlugin" }
 android-test = { id = "com.android.test", version.ref = "androidGradlePlugin" }
+dokka = { id = "org.jetbrains.dokka", version.ref = "dokka" }
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 kotlin-kapt = { id = "org.jetbrains.kotlin.kapt", version.ref = "kotlin" }
