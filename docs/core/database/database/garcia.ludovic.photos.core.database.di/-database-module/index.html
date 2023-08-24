@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>DatabaseModule</title>
+    <link href="../../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../../styles/style.css" rel="Stylesheet">
+<link href="../../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../../styles/main.css" rel="Stylesheet">
+<link href="../../../styles/prism.css" rel="Stylesheet">
+<link href="../../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+<link href="../../../images/logo-icon.svg">
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../../index.html">
+                    <span>database</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":core:database:dokkaHtml/main">Android</button>
+        </div>
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" data-page-type="classlike" id="content" pageIds="database::garcia.ludovic.photos.core.database.di/DatabaseModule///PointingToDeclaration//1681839005">
+  <div class="breadcrumbs"><a href="../../../index.html">database</a><span class="delimiter">/</span><a href="../index.html">garcia.ludovic.photos.core.database.di</a><span class="delimiter">/</span><span class="current">DatabaseModule</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span>Database</span><wbr></wbr><span><span>Module</span></span></h1>
+    <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:database:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="dagger/Module///PointingToDeclaration/"><span class="token annotation builtin">Module</span></span></div></div><span class="token keyword">object </span><a href="index.html">DatabaseModule</a><span class="clearfix"><span class="floating-right">(<a href="https://github.com/gorcyn/photos/tree/feat/dokka/core/database/src/main/java//garcia/ludovic/photos/core/database/di/DatabaseModule.kt#L32">source</a>)</span></span></div></div></div>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="CONSTRUCTOR,TYPE,PROPERTY,FUNCTION">Members</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="94321762%2FFunctions%2F1681839005" anchor-label="providesLocalPhotoQueries" id="94321762%2FFunctions%2F1681839005" data-filterable-set=":core:database:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":core:database:dokkaHtml/main" data-filterable-set=":core:database:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="provides-local-photo-queries.html"><span>provides</span><wbr></wbr><span>Local</span><wbr></wbr><span>Photo</span><wbr></wbr><span><span>Queries</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="94321762%2FFunctions%2F1681839005"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:database:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="dagger/Provides///PointingToDeclaration/"><span class="token annotation builtin">Provides</span></span></div><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="javax.inject/Singleton///PointingToDeclaration/"><span class="token annotation builtin">Singleton</span></span></div></div><span class="token keyword"></span><span class="token keyword">fun </span><a href="provides-local-photo-queries.html"><span class="token function">providesLocalPhotoQueries</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">photosDatabase<span class="token operator">: </span><span data-unresolved-link="/&amp;lt;Error class: unknown class&amp;gt;///PointingToDeclaration/">&lt;Error class: unknown class&gt;</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="/&amp;lt;Error class: unknown class&amp;gt;///PointingToDeclaration/">&lt;Error class: unknown class&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1787995367%2FFunctions%2F1681839005" anchor-label="providesPhotosDatabase" id="-1787995367%2FFunctions%2F1681839005" data-filterable-set=":core:database:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":core:database:dokkaHtml/main" data-filterable-set=":core:database:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="provides-photos-database.html"><span>provides</span><wbr></wbr><span>Photos</span><wbr></wbr><span><span>Database</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1787995367%2FFunctions%2F1681839005"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:database:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="dagger/Provides///PointingToDeclaration/"><span class="token annotation builtin">Provides</span></span></div><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="javax.inject/Singleton///PointingToDeclaration/"><span class="token annotation builtin">Singleton</span></span></div></div><span class="token keyword"></span><span class="token keyword">fun </span><a href="provides-photos-database.html"><span class="token function">providesPhotosDatabase</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">sqlDriver<span class="token operator">: </span><span data-unresolved-link="com.squareup.sqldelight.db/SqlDriver///PointingToDeclaration/">SqlDriver</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="/&amp;lt;Error class: unknown class&amp;gt;///PointingToDeclaration/">&lt;Error class: unknown class&gt;</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1183481534%2FFunctions%2F1681839005" anchor-label="providesPhotosLocalDataSource" id="-1183481534%2FFunctions%2F1681839005" data-filterable-set=":core:database:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":core:database:dokkaHtml/main" data-filterable-set=":core:database:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="provides-photos-local-data-source.html"><span>provides</span><wbr></wbr><span>Photos</span><wbr></wbr><span>Local</span><wbr></wbr><span>Data</span><wbr></wbr><span><span>Source</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1183481534%2FFunctions%2F1681839005"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:database:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="dagger/Provides///PointingToDeclaration/"><span class="token annotation builtin">Provides</span></span></div><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="javax.inject/Singleton///PointingToDeclaration/"><span class="token annotation builtin">Singleton</span></span></div></div><span class="token keyword"></span><span class="token keyword">fun </span><a href="provides-photos-local-data-source.html"><span class="token function">providesPhotosLocalDataSource</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">roomPhotoDao<span class="token operator">: </span><a href="../../garcia.ludovic.photos.core.database.room/-room-photo-dao/index.html">RoomPhotoDao</a><span class="token punctuation">, </span></span><span class="parameter ">localPhotoQueries<span class="token operator">: </span><span data-unresolved-link="/&amp;lt;Error class: unknown class&amp;gt;///PointingToDeclaration/">&lt;Error class: unknown class&gt;</span><span class="token punctuation">, </span></span><span class="parameter ">defaultDispatcher<span class="token operator">: </span><span data-unresolved-link="kotlinx.coroutines/CoroutineDispatcher///PointingToDeclaration/">CoroutineDispatcher</span></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../garcia.ludovic.photos.core.database/-photos-local-data-source/index.html">PhotosLocalDataSource</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-776157973%2FFunctions%2F1681839005" anchor-label="providesRoomPhotoDao" id="-776157973%2FFunctions%2F1681839005" data-filterable-set=":core:database:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":core:database:dokkaHtml/main" data-filterable-set=":core:database:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="provides-room-photo-dao.html"><span>provides</span><wbr></wbr><span>Room</span><wbr></wbr><span>Photo</span><wbr></wbr><span><span>Dao</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-776157973%2FFunctions%2F1681839005"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:database:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="dagger/Provides///PointingToDeclaration/"><span class="token annotation builtin">Provides</span></span></div><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="javax.inject/Singleton///PointingToDeclaration/"><span class="token annotation builtin">Singleton</span></span></div></div><span class="token keyword"></span><span class="token keyword">fun </span><a href="provides-room-photo-dao.html"><span class="token function">providesRoomPhotoDao</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">roomPhotoDatabase<span class="token operator">: </span><a href="../../garcia.ludovic.photos.core.database.room/-room-photo-database/index.html">RoomPhotoDatabase</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../garcia.ludovic.photos.core.database.room/-room-photo-dao/index.html">RoomPhotoDao</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-807171496%2FFunctions%2F1681839005" anchor-label="providesRoomPhotoDatabase" id="-807171496%2FFunctions%2F1681839005" data-filterable-set=":core:database:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":core:database:dokkaHtml/main" data-filterable-set=":core:database:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="provides-room-photo-database.html"><span>provides</span><wbr></wbr><span>Room</span><wbr></wbr><span>Photo</span><wbr></wbr><span><span>Database</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-807171496%2FFunctions%2F1681839005"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:database:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="dagger/Provides///PointingToDeclaration/"><span class="token annotation builtin">Provides</span></span></div><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="javax.inject/Singleton///PointingToDeclaration/"><span class="token annotation builtin">Singleton</span></span></div></div><span class="token keyword"></span><span class="token keyword">fun </span><a href="provides-room-photo-database.html"><span class="token function">providesRoomPhotoDatabase</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><a href="../../garcia.ludovic.photos.core.database.room/-room-photo-database/index.html">RoomPhotoDatabase</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-529739460%2FFunctions%2F1681839005" anchor-label="providesSqlDriver" id="-529739460%2FFunctions%2F1681839005" data-filterable-set=":core:database:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":core:database:dokkaHtml/main" data-filterable-set=":core:database:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="provides-sql-driver.html"><span>provides</span><wbr></wbr><span>Sql</span><wbr></wbr><span><span>Driver</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-529739460%2FFunctions%2F1681839005"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":core:database:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="dagger/Provides///PointingToDeclaration/"><span class="token annotation builtin">Provides</span></span></div><div class="block"><span class="token annotation builtin">@</span><span data-unresolved-link="javax.inject/Singleton///PointingToDeclaration/"><span class="token annotation builtin">Singleton</span></span></div></div><span class="token keyword"></span><span class="token keyword">fun </span><a href="provides-sql-driver.html"><span class="token function">providesSqlDriver</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a></span></span><span class="token punctuation">)</span><span class="token operator">: </span><span data-unresolved-link="com.squareup.sqldelight.db/SqlDriver///PointingToDeclaration/">SqlDriver</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>Copyright © 2023 Ludovic Garcia</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

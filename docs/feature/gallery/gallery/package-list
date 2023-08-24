@@ -1,0 +1,40 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:garcia.ludovic.photos.feature.gallery.model////PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery.model/index.html
+$dokka.location:garcia.ludovic.photos.feature.gallery.model/DisplayStyle.Four///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}gallery/garcia.ludovic.photos.feature.gallery.model/-display-style/-four/index.html
+$dokka.location:garcia.ludovic.photos.feature.gallery.model/DisplayStyle.Two///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}gallery/garcia.ludovic.photos.feature.gallery.model/-display-style/-two/index.html
+$dokka.location:garcia.ludovic.photos.feature.gallery.model/DisplayStyle///PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery.model/-display-style/index.html
+$dokka.location:garcia.ludovic.photos.feature.gallery.model/DisplayStyle/contentDescription/#/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery.model/-display-style/content-description.html
+$dokka.location:garcia.ludovic.photos.feature.gallery.model/DisplayStyle/gridCellsFor/#android.content.res.Configuration/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery.model/-display-style/grid-cells-for.html
+$dokka.location:garcia.ludovic.photos.feature.gallery.model/DisplayStyle/icon/#/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery.model/-display-style/icon.html
+$dokka.location:garcia.ludovic.photos.feature.gallery.model/DisplayStyle/next/#/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery.model/-display-style/next.html
+$dokka.location:garcia.ludovic.photos.feature.gallery.model/DisplayStyle/valueOf/#kotlin.String/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery.model/-display-style/value-of.html
+$dokka.location:garcia.ludovic.photos.feature.gallery.model/DisplayStyle/values/#/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery.model/-display-style/values.html
+$dokka.location:garcia.ludovic.photos.feature.gallery.navigation////PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery.navigation/index.html
+$dokka.location:garcia.ludovic.photos.feature.gallery.navigation//galleryNavigationRoute/#/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery.navigation/gallery-navigation-route.html
+$dokka.location:garcia.ludovic.photos.feature.gallery.navigation//galleryRoute/androidx.navigation.NavGraphBuilder#kotlin.Function1[kotlin.Int,kotlin.Unit]/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery.navigation/gallery-route.html
+$dokka.location:garcia.ludovic.photos.feature.gallery.ui////PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery.ui/index.html
+$dokka.location:garcia.ludovic.photos.feature.gallery.ui//GalleryScreen/#androidx.compose.material.pullrefresh.PullRefreshState#androidx.compose.foundation.lazy.grid.LazyGridState#android.content.Context#android.content.res.Configuration#garcia.ludovic.photos.feature.gallery.model.DisplayStyle#kotlin.Boolean#kotlin.collections.List[garcia.ludovic.photos.core.data.model.Photo]#kotlin.Function0[kotlin.Unit]#kotlin.Function1[kotlin.Int,kotlin.Unit]/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery.ui/-gallery-screen.html
+$dokka.location:garcia.ludovic.photos.feature.gallery.ui//GalleryScreen_Preview_Grid/#/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery.ui/-gallery-screen_-preview_-grid.html
+$dokka.location:garcia.ludovic.photos.feature.gallery.ui//GalleryScreen_Preview_List/#/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery.ui/-gallery-screen_-preview_-list.html
+$dokka.location:garcia.ludovic.photos.feature.gallery.ui//PhotoItem/#androidx.compose.ui.graphics.painter.Painter#kotlin.String#androidx.compose.ui.Modifier#androidx.compose.ui.graphics.Shape#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery.ui/-photo-item.html
+$dokka.location:garcia.ludovic.photos.feature.gallery.ui//PhotoItem_Preview/#/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery.ui/-photo-item_-preview.html
+$dokka.location:garcia.ludovic.photos.feature.gallery////PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery/index.html
+$dokka.location:garcia.ludovic.photos.feature.gallery//GalleryRoute/#garcia.ludovic.photos.feature.gallery.GalleryViewModel#android.content.Context#androidx.compose.material3.SnackbarHostState#kotlin.Function1[kotlin.Int,kotlin.Unit]/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery/-gallery-route.html
+$dokka.location:garcia.ludovic.photos.feature.gallery/GalleryUiState///PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery/-gallery-ui-state/index.html
+$dokka.location:garcia.ludovic.photos.feature.gallery/GalleryUiState/GalleryUiState/#garcia.ludovic.photos.feature.gallery.model.DisplayStyle#kotlin.collections.List[garcia.ludovic.photos.core.data.model.Photo]#kotlin.Boolean?#kotlin.Throwable?/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery/-gallery-ui-state/-gallery-ui-state.html
+$dokka.location:garcia.ludovic.photos.feature.gallery/GalleryUiState/displayStyle/#/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery/-gallery-ui-state/display-style.html
+$dokka.location:garcia.ludovic.photos.feature.gallery/GalleryUiState/error/#/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery/-gallery-ui-state/error.html
+$dokka.location:garcia.ludovic.photos.feature.gallery/GalleryUiState/isRefreshing/#/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery/-gallery-ui-state/is-refreshing.html
+$dokka.location:garcia.ludovic.photos.feature.gallery/GalleryUiState/photoList/#/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery/-gallery-ui-state/photo-list.html
+$dokka.location:garcia.ludovic.photos.feature.gallery/GalleryViewModel///PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery/-gallery-view-model/index.html
+$dokka.location:garcia.ludovic.photos.feature.gallery/GalleryViewModel/GalleryViewModel/#garcia.ludovic.photos.core.data.PhotoRepository/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery/-gallery-view-model/-gallery-view-model.html
+$dokka.location:garcia.ludovic.photos.feature.gallery/GalleryViewModel/onErrorConsumed/#/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery/-gallery-view-model/on-error-consumed.html
+$dokka.location:garcia.ludovic.photos.feature.gallery/GalleryViewModel/reload/#/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery/-gallery-view-model/reload.html
+$dokka.location:garcia.ludovic.photos.feature.gallery/GalleryViewModel/switchStyle/#/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery/-gallery-view-model/switch-style.html
+$dokka.location:garcia.ludovic.photos.feature.gallery/GalleryViewModel/uiState/#/PointingToDeclaration/gallery/garcia.ludovic.photos.feature.gallery/-gallery-view-model/ui-state.html
+garcia.ludovic.photos.feature.gallery
+garcia.ludovic.photos.feature.gallery.model
+garcia.ludovic.photos.feature.gallery.navigation
+garcia.ludovic.photos.feature.gallery.ui
+

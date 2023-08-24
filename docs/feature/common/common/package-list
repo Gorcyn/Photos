@@ -1,0 +1,13 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:garcia.ludovic.photos.feature.common.di////PointingToDeclaration/common/garcia.ludovic.photos.feature.common.di/index.html
+$dokka.location:garcia.ludovic.photos.feature.common.di/FeatureCommonModule///PointingToDeclaration/common/garcia.ludovic.photos.feature.common.di/-feature-common-module/index.html
+$dokka.location:garcia.ludovic.photos.feature.common.di/FeatureCommonModule/providesCoilImageRequest/#android.content.Context/PointingToDeclaration/common/garcia.ludovic.photos.feature.common.di/-feature-common-module/provides-coil-image-request.html
+$dokka.location:garcia.ludovic.photos.feature.common.image////PointingToDeclaration/common/garcia.ludovic.photos.feature.common.image/index.html
+$dokka.location:garcia.ludovic.photos.feature.common.image/CoilImageRequest///PointingToDeclaration/common/garcia.ludovic.photos.feature.common.image/-coil-image-request/index.html
+$dokka.location:garcia.ludovic.photos.feature.common.image/CoilImageRequest/CoilImageRequest/#android.content.Context/PointingToDeclaration/common/garcia.ludovic.photos.feature.common.image/-coil-image-request/-coil-image-request.html
+$dokka.location:garcia.ludovic.photos.feature.common.image/CoilImageRequest/photo/#kotlin.Int#kotlin.String?/PointingToDeclaration/common/garcia.ludovic.photos.feature.common.image/-coil-image-request/photo.html
+$dokka.location:garcia.ludovic.photos.feature.common.image/CoilImageRequest/thumbnail/#kotlin.Int#kotlin.String?/PointingToDeclaration/common/garcia.ludovic.photos.feature.common.image/-coil-image-request/thumbnail.html
+garcia.ludovic.photos.feature.common.di
+garcia.ludovic.photos.feature.common.image
+

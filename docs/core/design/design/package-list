@@ -1,0 +1,24 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:garcia.ludovic.photos.core.design.animation////PointingToDeclaration/design/garcia.ludovic.photos.core.design.animation/index.html
+$dokka.location:garcia.ludovic.photos.core.design.animation//animatedComposable/androidx.navigation.NavGraphBuilder#kotlin.String#kotlin.collections.List[androidx.navigation.NamedNavArgument]#kotlin.Function2[androidx.compose.animation.AnimatedVisibilityScope,androidx.navigation.NavBackStackEntry,kotlin.Unit]/PointingToDeclaration/design/garcia.ludovic.photos.core.design.animation/animated-composable.html
+$dokka.location:garcia.ludovic.photos.core.design.animation/AnimationDuration///PointingToDeclaration/design/garcia.ludovic.photos.core.design.animation/-animation-duration/index.html
+$dokka.location:garcia.ludovic.photos.core.design.animation/AnimationDuration/DEFAULT/#/PointingToDeclaration/design/garcia.ludovic.photos.core.design.animation/-animation-duration/-d-e-f-a-u-l-t.html
+$dokka.location:garcia.ludovic.photos.core.design.theme////PointingToDeclaration/design/garcia.ludovic.photos.core.design.theme/index.html
+$dokka.location:garcia.ludovic.photos.core.design.theme//PhotosTheme/#/PointingToDeclaration/design/garcia.ludovic.photos.core.design.theme/-photos-theme.html
+$dokka.location:garcia.ludovic.photos.core.design.theme//PhotosTheme/#kotlin.Boolean#kotlin.Function0[kotlin.Unit]/PointingToDeclaration/design/garcia.ludovic.photos.core.design.theme/-photos-theme.html
+$dokka.location:garcia.ludovic.photos.core.design.theme//fonts/#/PointingToDeclaration/design/garcia.ludovic.photos.core.design.theme/fonts.html
+$dokka.location:garcia.ludovic.photos.core.design.theme//typographyFrom/#androidx.compose.material3.Typography/PointingToDeclaration/design/garcia.ludovic.photos.core.design.theme/typography-from.html
+$dokka.location:garcia.ludovic.photos.core.design.ui.modifier////PointingToDeclaration/design/garcia.ludovic.photos.core.design.ui.modifier/index.html
+$dokka.location:garcia.ludovic.photos.core.design.ui.modifier//verticalScrollbar/androidx.compose.ui.Modifier#androidx.compose.foundation.lazy.grid.LazyGridState#androidx.compose.ui.unit.Dp#androidx.compose.ui.graphics.Color/PointingToDeclaration/design/garcia.ludovic.photos.core.design.ui.modifier/vertical-scrollbar.html
+$dokka.location:garcia.ludovic.photos.core.design.ui////PointingToDeclaration/design/garcia.ludovic.photos.core.design.ui/index.html
+$dokka.location:garcia.ludovic.photos.core.design.ui//PhotosTopAppBar/#kotlin.String#androidx.compose.material3.TopAppBarScrollBehavior#kotlin.Function1[androidx.compose.foundation.layout.RowScope,kotlin.Unit]/PointingToDeclaration/design/garcia.ludovic.photos.core.design.ui/-photos-top-app-bar.html
+$dokka.location:garcia.ludovic.photos.core.design////PointingToDeclaration/design/garcia.ludovic.photos.core.design/index.html
+$dokka.location:garcia.ludovic.photos.core.design//LocalSnackbarHostState/#/PointingToDeclaration/design/garcia.ludovic.photos.core.design/-local-snackbar-host-state.html
+$dokka.location:garcia.ludovic.photos.core.design//PhotosApp/#kotlin.String#kotlin.Function2[androidx.navigation.NavGraphBuilder,androidx.navigation.NavController,kotlin.Unit]/PointingToDeclaration/design/garcia.ludovic.photos.core.design/-photos-app.html
+garcia.ludovic.photos.core.design
+garcia.ludovic.photos.core.design.animation
+garcia.ludovic.photos.core.design.theme
+garcia.ludovic.photos.core.design.ui
+garcia.ludovic.photos.core.design.ui.modifier
+

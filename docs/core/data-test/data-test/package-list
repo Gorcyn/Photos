@@ -1,0 +1,23 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:garcia.ludovic.photos.core.data.test.di////PointingToDeclaration/data-test/garcia.ludovic.photos.core.data.test.di/index.html
+$dokka.location:garcia.ludovic.photos.core.data.test.di/TestDataModule///PointingToDeclaration/data-test/garcia.ludovic.photos.core.data.test.di/-test-data-module/index.html
+$dokka.location:garcia.ludovic.photos.core.data.test.di/TestDataModule/bindsNetworkMonitor/#garcia.ludovic.photos.core.data.test.util.TestNetworkMonitor/PointingToDeclaration/data-test/garcia.ludovic.photos.core.data.test.di/-test-data-module/binds-network-monitor.html
+$dokka.location:garcia.ludovic.photos.core.data.test.di/TestDataModule/bindsProjectRepository/#garcia.ludovic.photos.core.data.test.TestPhotoRepository/PointingToDeclaration/data-test/garcia.ludovic.photos.core.data.test.di/-test-data-module/binds-project-repository.html
+$dokka.location:garcia.ludovic.photos.core.data.test.util////PointingToDeclaration/data-test/garcia.ludovic.photos.core.data.test.util/index.html
+$dokka.location:garcia.ludovic.photos.core.data.test.util/TestNetworkMonitor///PointingToDeclaration/data-test/garcia.ludovic.photos.core.data.test.util/-test-network-monitor/index.html
+$dokka.location:garcia.ludovic.photos.core.data.test.util/TestNetworkMonitor/TestNetworkMonitor/#/PointingToDeclaration/data-test/garcia.ludovic.photos.core.data.test.util/-test-network-monitor/-test-network-monitor.html
+$dokka.location:garcia.ludovic.photos.core.data.test.util/TestNetworkMonitor/isOnline/#/PointingToDeclaration/data-test/garcia.ludovic.photos.core.data.test.util/-test-network-monitor/is-online.html
+$dokka.location:garcia.ludovic.photos.core.data.test////PointingToDeclaration/data-test/garcia.ludovic.photos.core.data.test/index.html
+$dokka.location:garcia.ludovic.photos.core.data.test/TestPhotoRepository///PointingToDeclaration/data-test/garcia.ludovic.photos.core.data.test/-test-photo-repository/index.html
+$dokka.location:garcia.ludovic.photos.core.data.test/TestPhotoRepository/TestPhotoRepository/#/PointingToDeclaration/data-test/garcia.ludovic.photos.core.data.test/-test-photo-repository/-test-photo-repository.html
+$dokka.location:garcia.ludovic.photos.core.data.test/TestPhotoRepository/add/#garcia.ludovic.photos.core.data.model.Photo/PointingToDeclaration/data-test/garcia.ludovic.photos.core.data.test/-test-photo-repository/add.html
+$dokka.location:garcia.ludovic.photos.core.data.test/TestPhotoRepository/delete/#kotlin.Int/PointingToDeclaration/data-test/garcia.ludovic.photos.core.data.test/-test-photo-repository/delete.html
+$dokka.location:garcia.ludovic.photos.core.data.test/TestPhotoRepository/getPhoto/#kotlin.Int/PointingToDeclaration/data-test/garcia.ludovic.photos.core.data.test/-test-photo-repository/get-photo.html
+$dokka.location:garcia.ludovic.photos.core.data.test/TestPhotoRepository/getPhotoList/#/PointingToDeclaration/data-test/garcia.ludovic.photos.core.data.test/-test-photo-repository/get-photo-list.html
+$dokka.location:garcia.ludovic.photos.core.data.test/TestPhotoRepository/sync/#/PointingToDeclaration/data-test/garcia.ludovic.photos.core.data.test/-test-photo-repository/sync.html
+$dokka.location:garcia.ludovic.photos.core.data.test/TestPhotoRepository/willThrow/#/PointingToDeclaration/data-test/garcia.ludovic.photos.core.data.test/-test-photo-repository/will-throw.html
+garcia.ludovic.photos.core.data.test
+garcia.ludovic.photos.core.data.test.di
+garcia.ludovic.photos.core.data.test.util
+

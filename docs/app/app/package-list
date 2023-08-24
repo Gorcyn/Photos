@@ -1,0 +1,9 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:garcia.ludovic.photos////PointingToDeclaration/app/garcia.ludovic.photos/index.html
+$dokka.location:garcia.ludovic.photos/MainActivity///PointingToDeclaration/app/garcia.ludovic.photos/-main-activity/index.html
+$dokka.location:garcia.ludovic.photos/MainActivity/MainActivity/#/PointingToDeclaration/app/garcia.ludovic.photos/-main-activity/-main-activity.html
+$dokka.location:garcia.ludovic.photos/PhotosApplication///PointingToDeclaration/app/garcia.ludovic.photos/-photos-application/index.html
+$dokka.location:garcia.ludovic.photos/PhotosApplication/PhotosApplication/#/PointingToDeclaration/app/garcia.ludovic.photos/-photos-application/-photos-application.html
+garcia.ludovic.photos
+

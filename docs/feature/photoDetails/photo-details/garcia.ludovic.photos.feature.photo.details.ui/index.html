@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+    <title>garcia.ludovic.photos.feature.photo.details.ui</title>
+    <link href="../../images/logo-icon.svg" rel="icon" type="image/svg">
+    <script>var pathToRoot = "../../";</script>
+    <script>const storage = localStorage.getItem("dokka-dark-mode")
+    if (storage == null) {
+        const osDarkSchemePreferred = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches
+        if (osDarkSchemePreferred === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    } else {
+        const savedDarkMode = JSON.parse(storage)
+        if(savedDarkMode === true) {
+            document.getElementsByTagName("html")[0].classList.add("theme-dark")
+        }
+    }
+    </script>
+<script type="text/javascript" src="../../scripts/sourceset_dependencies.js" async="async"></script>
+<link href="../../styles/style.css" rel="Stylesheet">
+<link href="../../styles/jetbrains-mono.css" rel="Stylesheet">
+<link href="../../styles/main.css" rel="Stylesheet">
+<link href="../../styles/prism.css" rel="Stylesheet">
+<link href="../../styles/logo-styles.css" rel="Stylesheet">
+<script type="text/javascript" src="../../scripts/clipboard.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/navigation-loader.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/platform-content-handler.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/main.js" defer="defer"></script>
+<script type="text/javascript" src="../../scripts/prism.js" async="async"></script>
+<script type="text/javascript" src="../../scripts/symbol-parameters-wrapper_deferred.js" defer="defer"></script>
+<link href="../../images/logo-icon.svg">
+</head>
+<body>
+<div class="navigation-wrapper" id="navigation-wrapper">
+    <div id="leftToggler"><span class="icon-toggler"></span></div>
+    <div class="library-name">
+            <a href="../../index.html">
+                    <span>photoDetails</span>
+            </a>
+    </div>
+    <div>
+    </div>
+    <div class="pull-right d-flex">
+        <div class="filter-section" id="filter-section">
+                <button class="platform-tag platform-selector jvm-like" data-active="" data-filter=":feature:photoDetails:dokkaHtml/main">Android</button>
+        </div>
+        <button id="theme-toggle-button"><span id="theme-toggle"></span></button>
+        <div id="searchBar"></div>
+    </div>
+</div>
+<div id="container">
+    <div id="leftColumn">
+        <div id="sideMenu"></div>
+    </div>
+    <div id="main">
+<div class="main-content" data-page-type="package" id="content" pageIds="photoDetails::garcia.ludovic.photos.feature.photo.details.ui////PointingToDeclaration//-1456964755">
+  <div class="breadcrumbs"><a href="../../index.html">photoDetails</a><span class="delimiter">/</span><span class="current">garcia.ludovic.photos.feature.photo.details.ui</span></div>
+  <div class="cover ">
+    <h1 class="cover"><span><span>Package-level</span></span> <span><span>declarations</span></span></h1>
+  </div>
+  <div class="tabbedcontent">
+    <div class="tabs-section" tabs-section="tabs-section"><button class="section-tab" data-active="" data-togglable="FUNCTION,EXTENSION_FUNCTION">Functions</button></div>
+    <div class="tabs-section-body">
+      <div data-togglable="FUNCTION">
+        <h2 class="">Functions</h2>
+        <div class="table"><a data-name="2145413233%2FFunctions%2F-1456964755" anchor-label="PhotoDetailsBottomSheet" id="2145413233%2FFunctions%2F-1456964755" data-filterable-set=":feature:photoDetails:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":feature:photoDetails:dokkaHtml/main" data-filterable-set=":feature:photoDetails:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-photo-details-bottom-sheet.html"><span>Photo</span><wbr></wbr><span>Details</span><wbr></wbr><span>Bottom</span><wbr></wbr><span><span>Sheet</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="2145413233%2FFunctions%2F-1456964755"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":feature:photoDetails:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/compose/runtime/Composable.html"><span class="token annotation builtin">Composable</span></a></div></div><span class="token keyword"></span><span class="token keyword">fun </span><a href="-photo-details-bottom-sheet.html"><span class="token function">PhotoDetailsBottomSheet</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">id<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">albumId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">title<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">url<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a><span class="token punctuation">, </span></span><span class="parameter ">thumbnailUrl<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-string/index.html">String</a></span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-951121836%2FFunctions%2F-1456964755" anchor-label="PhotoDetailsBottomSheet_Preview" id="-951121836%2FFunctions%2F-1456964755" data-filterable-set=":feature:photoDetails:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":feature:photoDetails:dokkaHtml/main" data-filterable-set=":feature:photoDetails:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-photo-details-bottom-sheet_-preview.html"><span>Photo</span><wbr></wbr><span>Details</span><wbr></wbr><span>Bottom</span><wbr></wbr><span><span>Sheet_Preview</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-951121836%2FFunctions%2F-1456964755"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":feature:photoDetails:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/compose/runtime/Composable.html"><span class="token annotation builtin">Composable</span></a></div><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/compose/ui/tooling/preview/Preview.html"><span class="token annotation builtin">Preview</span></a><span class="token punctuation">(</span><span>showBackground<span class="token operator"> = </span><span class="breakable-word"><span class="token boolean">true</span></span><span class="token punctuation">, </span></span><wbr></wbr><span>showSystemUi<span class="token operator"> = </span><span class="breakable-word"><span class="token boolean">true</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword"></span><span class="token keyword">fun </span><a href="-photo-details-bottom-sheet_-preview.html"><span class="token function">PhotoDetailsBottomSheet_Preview</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-898883080%2FFunctions%2F-1456964755" anchor-label="PhotoDetailsBottomSheet_Preview_Landscape" id="-898883080%2FFunctions%2F-1456964755" data-filterable-set=":feature:photoDetails:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":feature:photoDetails:dokkaHtml/main" data-filterable-set=":feature:photoDetails:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-photo-details-bottom-sheet_-preview_-landscape.html"><span>Photo</span><wbr></wbr><span>Details</span><wbr></wbr><span>Bottom</span><wbr></wbr><span><span>Sheet_Preview_Landscape</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-898883080%2FFunctions%2F-1456964755"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":feature:photoDetails:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/compose/runtime/Composable.html"><span class="token annotation builtin">Composable</span></a></div><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/compose/ui/tooling/preview/Preview.html"><span class="token annotation builtin">Preview</span></a><span class="token punctuation">(</span><span>showBackground<span class="token operator"> = </span><span class="breakable-word"><span class="token boolean">true</span></span><span class="token punctuation">, </span></span><wbr></wbr><span>showSystemUi<span class="token operator"> = </span><span class="breakable-word"><span class="token boolean">true</span></span><span class="token punctuation">, </span></span><wbr></wbr><span>device<span class="token operator"> = </span><span class="breakable-word"><span class="token string">&quot;id:automotive_1024p_landscape&quot;</span></span><span class="token punctuation">, </span></span><wbr></wbr><span>widthDp<span class="token operator"> = </span><span class="breakable-word"><span class="token constant">720</span></span><span class="token punctuation">, </span></span><wbr></wbr><span>heightDp<span class="token operator"> = </span><span class="breakable-word"><span class="token constant">360</span></span></span><wbr></wbr><span class="token punctuation">)</span></div></div><span class="token keyword"></span><span class="token keyword">fun </span><a href="-photo-details-bottom-sheet_-preview_-landscape.html"><span class="token function">PhotoDetailsBottomSheet_Preview_Landscape</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-681150040%2FFunctions%2F-1456964755" anchor-label="PhotoDetailsScreen" id="-681150040%2FFunctions%2F-1456964755" data-filterable-set=":feature:photoDetails:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":feature:photoDetails:dokkaHtml/main" data-filterable-set=":feature:photoDetails:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-photo-details-screen.html"><span>Photo</span><wbr></wbr><span>Details</span><wbr></wbr><span><span>Screen</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-681150040%2FFunctions%2F-1456964755"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":feature:photoDetails:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/compose/runtime/Composable.html"><span class="token annotation builtin">Composable</span></a></div></div><span class="token keyword"></span><span class="token keyword">fun </span><a href="-photo-details-screen.html"><span class="token function">PhotoDetailsScreen</span></a><span class="token punctuation">(</span><span class="parameters "><span class="parameter ">photoId<span class="token operator">: </span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-int/index.html">Int</a><span class="token punctuation">, </span></span><span class="parameter ">photo<span class="token operator">: </span><span data-unresolved-link="garcia.ludovic.photos.core.data.model/Photo///PointingToDeclaration/">Photo</span><span class="token operator">?</span><span class="token punctuation">, </span></span><span class="parameter ">context<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/Context.html">Context</a><span class="token operator"> = </span>LocalContext.current<span class="token punctuation">, </span></span><span class="parameter ">configuration<span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/android/content/res/Configuration.html">Configuration</a><span class="token operator"> = </span>LocalConfiguration.current<span class="token punctuation">, </span></span><span class="parameter ">onInfo<span class="token operator">: </span><span class="token punctuation">(</span><span class="token keyword"></span>photo<span class="token operator">: </span><span data-unresolved-link="garcia.ludovic.photos.core.data.model/Photo///PointingToDeclaration/">Photo</span><span class="token punctuation">)</span><span class="token operator"> -&gt; </span><span class="token keyword"></span><a href="https://kotlinlang.org/api/latest/jvm/stdlib/kotlin/-unit/index.html">Unit</a><span class="token operator"> = </span>{}</span></span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-91648653%2FFunctions%2F-1456964755" anchor-label="PhotoDetailsScreen_Preview_No_Photo" id="-91648653%2FFunctions%2F-1456964755" data-filterable-set=":feature:photoDetails:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":feature:photoDetails:dokkaHtml/main" data-filterable-set=":feature:photoDetails:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-photo-details-screen_-preview_-no_-photo.html"><span>Photo</span><wbr></wbr><span>Details</span><wbr></wbr><span><span>Screen_Preview_No_Photo</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-91648653%2FFunctions%2F-1456964755"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":feature:photoDetails:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/compose/runtime/Composable.html"><span class="token annotation builtin">Composable</span></a></div><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/compose/ui/tooling/preview/Preview.html"><span class="token annotation builtin">Preview</span></a></div></div><span class="token keyword"></span><span class="token keyword">fun </span><a href="-photo-details-screen_-preview_-no_-photo.html"><span class="token function">PhotoDetailsScreen_Preview_No_Photo</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="-1379819327%2FFunctions%2F-1456964755" anchor-label="PhotoDetailsScreen_Preview_Photo" id="-1379819327%2FFunctions%2F-1456964755" data-filterable-set=":feature:photoDetails:dokkaHtml/main"></a>
+          <div class="table-row" data-filterable-current=":feature:photoDetails:dokkaHtml/main" data-filterable-set=":feature:photoDetails:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="-photo-details-screen_-preview_-photo.html"><span>Photo</span><wbr></wbr><span>Details</span><wbr></wbr><span><span>Screen_Preview_Photo</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="-1379819327%2FFunctions%2F-1456964755"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":feature:photoDetails:dokkaHtml/main"><div class="symbol monospace"><div class="block"><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/compose/runtime/Composable.html"><span class="token annotation builtin">Composable</span></a></div><div class="block"><span class="token annotation builtin">@</span><a href="https://developer.android.com/reference/kotlin/androidx/compose/ui/tooling/preview/Preview.html"><span class="token annotation builtin">Preview</span></a></div></div><span class="token keyword"></span><span class="token keyword">fun </span><a href="-photo-details-screen_-preview_-photo.html"><span class="token function">PhotoDetailsScreen_Preview_Photo</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+<a data-name="245055519%2FFunctions%2F-1456964755" anchor-label="workaroundAccompanist910" id="245055519%2FFunctions%2F-1456964755" data-filterable-set=":feature:photoDetails:dokkaHtml/main"></a>
+          <div class="table-row" data-togglable="EXTENSION_FUNCTION" data-filterable-current=":feature:photoDetails:dokkaHtml/main" data-filterable-set=":feature:photoDetails:dokkaHtml/main">
+            <div class="main-subrow keyValue ">
+              <div class=""><span class="inline-flex">
+                  <div><a href="workaround-accompanist910.html"><span>workaround</span><wbr></wbr><span><span>Accompanist910</span></span></a></div>
+<span class="anchor-wrapper"><span class="anchor-icon" pointing-to="245055519%2FFunctions%2F-1456964755"></span>
+                    <div class="copy-popup-wrapper "><span class="copy-popup-icon"></span><span>Link copied to clipboard</span></div>
+                  </span></span></div>
+              <div>
+                <div class="title">
+                  <div class="platform-hinted " data-platform-hinted="data-platform-hinted"><div class="content sourceset-dependent-content" data-active="" data-togglable=":feature:photoDetails:dokkaHtml/main"><div class="symbol monospace"><span class="token keyword"></span><span class="token keyword">fun </span><a href="https://developer.android.com/reference/kotlin/androidx/compose/ui/Modifier.html">Modifier</a><span class="token punctuation">.</span><a href="workaround-accompanist910.html"><span class="token function">workaroundAccompanist910</span></a><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">: </span><a href="https://developer.android.com/reference/kotlin/androidx/compose/ui/Modifier.html">Modifier</a></div></div></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+      <div class="footer">
+        <span class="go-to-top-icon"><a href="#content" id="go-to-top-link"></a></span><span>Copyright © 2023 Ludovic Garcia</span><span
+                class="pull-right"><span>Generated by </span><a
+                href="https://github.com/Kotlin/dokka"><span>dokka</span><span class="padded-icon"></span></a></span>
+      </div>
+    </div>
+</div>
+</body>
+</html>

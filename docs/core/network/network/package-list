@@ -1,0 +1,31 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:garcia.ludovic.photos.core.network.di////PointingToDeclaration/network/garcia.ludovic.photos.core.network.di/index.html
+$dokka.location:garcia.ludovic.photos.core.network.di/NetworkModule///PointingToDeclaration/network/garcia.ludovic.photos.core.network.di/-network-module/index.html
+$dokka.location:garcia.ludovic.photos.core.network.di/NetworkModule/providesHttpLoggingInterceptor/#/PointingToDeclaration/network/garcia.ludovic.photos.core.network.di/-network-module/provides-http-logging-interceptor.html
+$dokka.location:garcia.ludovic.photos.core.network.di/NetworkModule/providesNetworkJson/#/PointingToDeclaration/network/garcia.ludovic.photos.core.network.di/-network-module/provides-network-json.html
+$dokka.location:garcia.ludovic.photos.core.network.di/NetworkModule/providesOkHttpClient/#okhttp3.logging.HttpLoggingInterceptor/PointingToDeclaration/network/garcia.ludovic.photos.core.network.di/-network-module/provides-ok-http-client.html
+$dokka.location:garcia.ludovic.photos.core.network.di/NetworkModule/providesPhotosNetworkApi/#kotlinx.serialization.json.Json#okhttp3.OkHttpClient/PointingToDeclaration/network/garcia.ludovic.photos.core.network.di/-network-module/provides-photos-network-api.html
+$dokka.location:garcia.ludovic.photos.core.network.di/NetworkModule/providesPhotosNetworkDataSource/#garcia.ludovic.photos.core.network.retrofit.PhotoNetworkApi/PointingToDeclaration/network/garcia.ludovic.photos.core.network.di/-network-module/provides-photos-network-data-source.html
+$dokka.location:garcia.ludovic.photos.core.network.model////PointingToDeclaration/network/garcia.ludovic.photos.core.network.model/index.html
+$dokka.location:garcia.ludovic.photos.core.network.model/NetworkPhoto///PointingToDeclaration/network/garcia.ludovic.photos.core.network.model/-network-photo/index.html
+$dokka.location:garcia.ludovic.photos.core.network.model/NetworkPhoto/NetworkPhoto/#kotlin.Int#kotlin.Int#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/network/garcia.ludovic.photos.core.network.model/-network-photo/-network-photo.html
+$dokka.location:garcia.ludovic.photos.core.network.model/NetworkPhoto/albumId/#/PointingToDeclaration/network/garcia.ludovic.photos.core.network.model/-network-photo/album-id.html
+$dokka.location:garcia.ludovic.photos.core.network.model/NetworkPhoto/id/#/PointingToDeclaration/network/garcia.ludovic.photos.core.network.model/-network-photo/id.html
+$dokka.location:garcia.ludovic.photos.core.network.model/NetworkPhoto/thumbnailUrl/#/PointingToDeclaration/network/garcia.ludovic.photos.core.network.model/-network-photo/thumbnail-url.html
+$dokka.location:garcia.ludovic.photos.core.network.model/NetworkPhoto/title/#/PointingToDeclaration/network/garcia.ludovic.photos.core.network.model/-network-photo/title.html
+$dokka.location:garcia.ludovic.photos.core.network.model/NetworkPhoto/url/#/PointingToDeclaration/network/garcia.ludovic.photos.core.network.model/-network-photo/url.html
+$dokka.location:garcia.ludovic.photos.core.network.retrofit////PointingToDeclaration/network/garcia.ludovic.photos.core.network.retrofit/index.html
+$dokka.location:garcia.ludovic.photos.core.network.retrofit/PhotoNetworkApi///PointingToDeclaration/network/garcia.ludovic.photos.core.network.retrofit/-photo-network-api/index.html
+$dokka.location:garcia.ludovic.photos.core.network.retrofit/PhotoNetworkApi/getPhotoList/#/PointingToDeclaration/network/garcia.ludovic.photos.core.network.retrofit/-photo-network-api/get-photo-list.html
+$dokka.location:garcia.ludovic.photos.core.network////PointingToDeclaration/network/garcia.ludovic.photos.core.network/index.html
+$dokka.location:garcia.ludovic.photos.core.network/DefaultPhotoNetworkDataSource///PointingToDeclaration/network/garcia.ludovic.photos.core.network/-default-photo-network-data-source/index.html
+$dokka.location:garcia.ludovic.photos.core.network/DefaultPhotoNetworkDataSource/DefaultPhotoNetworkDataSource/#garcia.ludovic.photos.core.network.retrofit.PhotoNetworkApi/PointingToDeclaration/network/garcia.ludovic.photos.core.network/-default-photo-network-data-source/-default-photo-network-data-source.html
+$dokka.location:garcia.ludovic.photos.core.network/DefaultPhotoNetworkDataSource/getPhotoList/#/PointingToDeclaration/network/garcia.ludovic.photos.core.network/-default-photo-network-data-source/get-photo-list.html
+$dokka.location:garcia.ludovic.photos.core.network/PhotoNetworkDataSource///PointingToDeclaration/network/garcia.ludovic.photos.core.network/-photo-network-data-source/index.html
+$dokka.location:garcia.ludovic.photos.core.network/PhotoNetworkDataSource/getPhotoList/#/PointingToDeclaration/network/garcia.ludovic.photos.core.network/-photo-network-data-source/get-photo-list.html
+garcia.ludovic.photos.core.network
+garcia.ludovic.photos.core.network.di
+garcia.ludovic.photos.core.network.model
+garcia.ludovic.photos.core.network.retrofit
+

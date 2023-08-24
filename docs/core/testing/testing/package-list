@@ -1,0 +1,13 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:garcia.ludovic.photos.core.testing.util////PointingToDeclaration/testing/garcia.ludovic.photos.core.testing.util/index.html
+$dokka.location:garcia.ludovic.photos.core.testing.util/DefaultDispatcherRule///PointingToDeclaration/testing/garcia.ludovic.photos.core.testing.util/-default-dispatcher-rule/index.html
+$dokka.location:garcia.ludovic.photos.core.testing.util/DefaultDispatcherRule/DefaultDispatcherRule/#kotlinx.coroutines.test.TestDispatcher/PointingToDeclaration/testing/garcia.ludovic.photos.core.testing.util/-default-dispatcher-rule/-default-dispatcher-rule.html
+$dokka.location:garcia.ludovic.photos.core.testing.util/DefaultDispatcherRule/testDispatcher/#/PointingToDeclaration/testing/garcia.ludovic.photos.core.testing.util/-default-dispatcher-rule/test-dispatcher.html
+$dokka.location:garcia.ludovic.photos.core.testing////PointingToDeclaration/testing/garcia.ludovic.photos.core.testing/index.html
+$dokka.location:garcia.ludovic.photos.core.testing/PhotosTestRunner///PointingToDeclaration/testing/garcia.ludovic.photos.core.testing/-photos-test-runner/index.html
+$dokka.location:garcia.ludovic.photos.core.testing/PhotosTestRunner/PhotosTestRunner/#/PointingToDeclaration/testing/garcia.ludovic.photos.core.testing/-photos-test-runner/-photos-test-runner.html
+$dokka.location:garcia.ludovic.photos.core.testing/PhotosTestRunner/newApplication/#java.lang.ClassLoader?#kotlin.String?#android.content.Context?/PointingToDeclaration/testing/garcia.ludovic.photos.core.testing/-photos-test-runner/new-application.html
+garcia.ludovic.photos.core.testing
+garcia.ludovic.photos.core.testing.util
+

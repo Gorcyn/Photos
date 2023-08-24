@@ -1,0 +1,8 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:garcia.ludovic.photos.core.design.test////PointingToDeclaration/design-test/garcia.ludovic.photos.core.design.test/index.html
+$dokka.location:garcia.ludovic.photos.core.design.test//assertBackgroundColor/androidx.compose.ui.test.SemanticsNodeInteraction#androidx.compose.ui.graphics.Color#androidx.compose.ui.graphics.Shape/PointingToDeclaration/design-test/garcia.ludovic.photos.core.design.test/assert-background-color.html
+$dokka.location:garcia.ludovic.photos.core.design.test//assertFontWeight/androidx.compose.ui.test.SemanticsNodeInteraction#androidx.compose.ui.text.font.FontWeight/PointingToDeclaration/design-test/garcia.ludovic.photos.core.design.test/assert-font-weight.html
+$dokka.location:garcia.ludovic.photos.core.design.test//assertTextColor/androidx.compose.ui.test.SemanticsNodeInteraction#androidx.compose.ui.graphics.Color/PointingToDeclaration/design-test/garcia.ludovic.photos.core.design.test/assert-text-color.html
+garcia.ludovic.photos.core.design.test
+

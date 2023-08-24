@@ -1,0 +1,44 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:garcia.ludovic.photos.core.data.di////PointingToDeclaration/data/garcia.ludovic.photos.core.data.di/index.html
+$dokka.location:garcia.ludovic.photos.core.data.di/DataModule///PointingToDeclaration/data/garcia.ludovic.photos.core.data.di/-data-module/index.html
+$dokka.location:garcia.ludovic.photos.core.data.di/DataModule/bindsNetworkMonitor/#garcia.ludovic.photos.core.data.util.DefaultNetworkMonitor/PointingToDeclaration/data/garcia.ludovic.photos.core.data.di/-data-module/binds-network-monitor.html
+$dokka.location:garcia.ludovic.photos.core.data.di/DataModule/bindsProjectRepository/#garcia.ludovic.photos.core.data.DefaultPhotoRepository/PointingToDeclaration/data/garcia.ludovic.photos.core.data.di/-data-module/binds-project-repository.html
+$dokka.location:garcia.ludovic.photos.core.data.exception////PointingToDeclaration/data/garcia.ludovic.photos.core.data.exception/index.html
+$dokka.location:garcia.ludovic.photos.core.data.exception/DataSyncException///PointingToDeclaration/data/garcia.ludovic.photos.core.data.exception/-data-sync-exception/index.html
+$dokka.location:garcia.ludovic.photos.core.data.exception/DataSyncException/DataSyncException/#kotlin.Throwable/PointingToDeclaration/data/garcia.ludovic.photos.core.data.exception/-data-sync-exception/-data-sync-exception.html
+$dokka.location:garcia.ludovic.photos.core.data.exception/OfflineException///PointingToDeclaration/data/garcia.ludovic.photos.core.data.exception/-offline-exception/index.html
+$dokka.location:garcia.ludovic.photos.core.data.exception/OfflineException/OfflineException/#/PointingToDeclaration/data/garcia.ludovic.photos.core.data.exception/-offline-exception/-offline-exception.html
+$dokka.location:garcia.ludovic.photos.core.data.model////PointingToDeclaration/data/garcia.ludovic.photos.core.data.model/index.html
+$dokka.location:garcia.ludovic.photos.core.data.model//asCommon/garcia.ludovic.photos.core.database.LocalPhoto#/PointingToDeclaration/data/garcia.ludovic.photos.core.data.model/as-common.html
+$dokka.location:garcia.ludovic.photos.core.data.model//asCommon/garcia.ludovic.photos.core.network.model.NetworkPhoto#/PointingToDeclaration/data/garcia.ludovic.photos.core.data.model/as-common.html
+$dokka.location:garcia.ludovic.photos.core.data.model//asLocal/garcia.ludovic.photos.core.data.model.Photo#/PointingToDeclaration/data/garcia.ludovic.photos.core.data.model/as-local.html
+$dokka.location:garcia.ludovic.photos.core.data.model/Photo///PointingToDeclaration/data/garcia.ludovic.photos.core.data.model/-photo/index.html
+$dokka.location:garcia.ludovic.photos.core.data.model/Photo/Photo/#kotlin.Int#kotlin.Int#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/data/garcia.ludovic.photos.core.data.model/-photo/-photo.html
+$dokka.location:garcia.ludovic.photos.core.data.model/Photo/albumId/#/PointingToDeclaration/data/garcia.ludovic.photos.core.data.model/-photo/album-id.html
+$dokka.location:garcia.ludovic.photos.core.data.model/Photo/id/#/PointingToDeclaration/data/garcia.ludovic.photos.core.data.model/-photo/id.html
+$dokka.location:garcia.ludovic.photos.core.data.model/Photo/thumbnailUrl/#/PointingToDeclaration/data/garcia.ludovic.photos.core.data.model/-photo/thumbnail-url.html
+$dokka.location:garcia.ludovic.photos.core.data.model/Photo/title/#/PointingToDeclaration/data/garcia.ludovic.photos.core.data.model/-photo/title.html
+$dokka.location:garcia.ludovic.photos.core.data.model/Photo/url/#/PointingToDeclaration/data/garcia.ludovic.photos.core.data.model/-photo/url.html
+$dokka.location:garcia.ludovic.photos.core.data.util////PointingToDeclaration/data/garcia.ludovic.photos.core.data.util/index.html
+$dokka.location:garcia.ludovic.photos.core.data.util/DefaultNetworkMonitor///PointingToDeclaration/data/garcia.ludovic.photos.core.data.util/-default-network-monitor/index.html
+$dokka.location:garcia.ludovic.photos.core.data.util/DefaultNetworkMonitor/DefaultNetworkMonitor/#android.content.Context/PointingToDeclaration/data/garcia.ludovic.photos.core.data.util/-default-network-monitor/-default-network-monitor.html
+$dokka.location:garcia.ludovic.photos.core.data.util/DefaultNetworkMonitor/isOnline/#/PointingToDeclaration/data/garcia.ludovic.photos.core.data.util/-default-network-monitor/is-online.html
+$dokka.location:garcia.ludovic.photos.core.data.util/NetworkMonitor///PointingToDeclaration/data/garcia.ludovic.photos.core.data.util/-network-monitor/index.html
+$dokka.location:garcia.ludovic.photos.core.data.util/NetworkMonitor/isOnline/#/PointingToDeclaration/data/garcia.ludovic.photos.core.data.util/-network-monitor/is-online.html
+$dokka.location:garcia.ludovic.photos.core.data////PointingToDeclaration/data/garcia.ludovic.photos.core.data/index.html
+$dokka.location:garcia.ludovic.photos.core.data/DefaultPhotoRepository///PointingToDeclaration/data/garcia.ludovic.photos.core.data/-default-photo-repository/index.html
+$dokka.location:garcia.ludovic.photos.core.data/DefaultPhotoRepository/DefaultPhotoRepository/#garcia.ludovic.photos.core.network.PhotoNetworkDataSource#garcia.ludovic.photos.core.database.PhotosLocalDataSource#kotlinx.coroutines.CoroutineDispatcher#garcia.ludovic.photos.core.data.util.NetworkMonitor/PointingToDeclaration/data/garcia.ludovic.photos.core.data/-default-photo-repository/-default-photo-repository.html
+$dokka.location:garcia.ludovic.photos.core.data/DefaultPhotoRepository/getPhoto/#kotlin.Int/PointingToDeclaration/data/garcia.ludovic.photos.core.data/-default-photo-repository/get-photo.html
+$dokka.location:garcia.ludovic.photos.core.data/DefaultPhotoRepository/getPhotoList/#/PointingToDeclaration/data/garcia.ludovic.photos.core.data/-default-photo-repository/get-photo-list.html
+$dokka.location:garcia.ludovic.photos.core.data/DefaultPhotoRepository/sync/#/PointingToDeclaration/data/garcia.ludovic.photos.core.data/-default-photo-repository/sync.html
+$dokka.location:garcia.ludovic.photos.core.data/PhotoRepository///PointingToDeclaration/data/garcia.ludovic.photos.core.data/-photo-repository/index.html
+$dokka.location:garcia.ludovic.photos.core.data/PhotoRepository/getPhoto/#kotlin.Int/PointingToDeclaration/data/garcia.ludovic.photos.core.data/-photo-repository/get-photo.html
+$dokka.location:garcia.ludovic.photos.core.data/PhotoRepository/getPhotoList/#/PointingToDeclaration/data/garcia.ludovic.photos.core.data/-photo-repository/get-photo-list.html
+$dokka.location:garcia.ludovic.photos.core.data/PhotoRepository/sync/#/PointingToDeclaration/data/garcia.ludovic.photos.core.data/-photo-repository/sync.html
+garcia.ludovic.photos.core.data
+garcia.ludovic.photos.core.data.di
+garcia.ludovic.photos.core.data.exception
+garcia.ludovic.photos.core.data.model
+garcia.ludovic.photos.core.data.util
+

@@ -1,0 +1,23 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:garcia.ludovic.photos.core.database.test.di////PointingToDeclaration/database-test/garcia.ludovic.photos.core.database.test.di/index.html
+$dokka.location:garcia.ludovic.photos.core.database.test.di/TestDatabaseModule///PointingToDeclaration/database-test/garcia.ludovic.photos.core.database.test.di/-test-database-module/index.html
+$dokka.location:garcia.ludovic.photos.core.database.test.di/TestDatabaseModule/providesPhotosDatabase/#/PointingToDeclaration/database-test/garcia.ludovic.photos.core.database.test.di/-test-database-module/provides-photos-database.html
+$dokka.location:garcia.ludovic.photos.core.database.test.di/TestDatabaseModule/providesPhotosLocalDataSource/#/PointingToDeclaration/database-test/garcia.ludovic.photos.core.database.test.di/-test-database-module/provides-photos-local-data-source.html
+$dokka.location:garcia.ludovic.photos.core.database.test.di/TestDatabaseModule/providesProjectQueries/#garcia.ludovic.photos.core.database.PhotosDatabase/PointingToDeclaration/database-test/garcia.ludovic.photos.core.database.test.di/-test-database-module/provides-project-queries.html
+$dokka.location:garcia.ludovic.photos.core.database.test.di/TestDatabaseModule/providesRoomPhotoDao/#garcia.ludovic.photos.core.database.room.RoomPhotoDatabase/PointingToDeclaration/database-test/garcia.ludovic.photos.core.database.test.di/-test-database-module/provides-room-photo-dao.html
+$dokka.location:garcia.ludovic.photos.core.database.test.di/TestDatabaseModule/providesRoomPhotoDatabase/#android.content.Context/PointingToDeclaration/database-test/garcia.ludovic.photos.core.database.test.di/-test-database-module/provides-room-photo-database.html
+$dokka.location:garcia.ludovic.photos.core.database.test////PointingToDeclaration/database-test/garcia.ludovic.photos.core.database.test/index.html
+$dokka.location:garcia.ludovic.photos.core.database.test//inMemoryRoomPhotoDatabase/#android.content.Context/PointingToDeclaration/database-test/garcia.ludovic.photos.core.database.test/in-memory-room-photo-database.html
+$dokka.location:garcia.ludovic.photos.core.database.test/InMemoryPhotosDatabase///PointingToDeclaration/database-test/garcia.ludovic.photos.core.database.test/-in-memory-photos-database/index.html
+$dokka.location:garcia.ludovic.photos.core.database.test/InMemoryPhotosDatabase/InMemoryPhotosDatabase/#/PointingToDeclaration/database-test/garcia.ludovic.photos.core.database.test/-in-memory-photos-database/-in-memory-photos-database.html
+$dokka.location:garcia.ludovic.photos.core.database.test/TestPhotosLocalDataSource///PointingToDeclaration/database-test/garcia.ludovic.photos.core.database.test/-test-photos-local-data-source/index.html
+$dokka.location:garcia.ludovic.photos.core.database.test/TestPhotosLocalDataSource/TestPhotosLocalDataSource/#/PointingToDeclaration/database-test/garcia.ludovic.photos.core.database.test/-test-photos-local-data-source/-test-photos-local-data-source.html
+$dokka.location:garcia.ludovic.photos.core.database.test/TestPhotosLocalDataSource/delete/#kotlin.Int/PointingToDeclaration/database-test/garcia.ludovic.photos.core.database.test/-test-photos-local-data-source/delete.html
+$dokka.location:garcia.ludovic.photos.core.database.test/TestPhotosLocalDataSource/deleteAll/#/PointingToDeclaration/database-test/garcia.ludovic.photos.core.database.test/-test-photos-local-data-source/delete-all.html
+$dokka.location:garcia.ludovic.photos.core.database.test/TestPhotosLocalDataSource/save/#garcia.ludovic.photos.core.database.LocalPhoto/PointingToDeclaration/database-test/garcia.ludovic.photos.core.database.test/-test-photos-local-data-source/save.html
+$dokka.location:garcia.ludovic.photos.core.database.test/TestPhotosLocalDataSource/select/#kotlin.Int/PointingToDeclaration/database-test/garcia.ludovic.photos.core.database.test/-test-photos-local-data-source/select.html
+$dokka.location:garcia.ludovic.photos.core.database.test/TestPhotosLocalDataSource/selectAll/#/PointingToDeclaration/database-test/garcia.ludovic.photos.core.database.test/-test-photos-local-data-source/select-all.html
+garcia.ludovic.photos.core.database.test
+garcia.ludovic.photos.core.database.test.di
+

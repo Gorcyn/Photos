@@ -1,0 +1,55 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:garcia.ludovic.photos.core.database.di////PointingToDeclaration/database/garcia.ludovic.photos.core.database.di/index.html
+$dokka.location:garcia.ludovic.photos.core.database.di/DatabaseModule///PointingToDeclaration/database/garcia.ludovic.photos.core.database.di/-database-module/index.html
+$dokka.location:garcia.ludovic.photos.core.database.di/DatabaseModule/providesLocalPhotoQueries/#[Error type: Unresolved type for PhotosDatabase]/PointingToDeclaration/database/garcia.ludovic.photos.core.database.di/-database-module/provides-local-photo-queries.html
+$dokka.location:garcia.ludovic.photos.core.database.di/DatabaseModule/providesPhotosDatabase/#com.squareup.sqldelight.db.SqlDriver/PointingToDeclaration/database/garcia.ludovic.photos.core.database.di/-database-module/provides-photos-database.html
+$dokka.location:garcia.ludovic.photos.core.database.di/DatabaseModule/providesPhotosLocalDataSource/#garcia.ludovic.photos.core.database.room.RoomPhotoDao#[Error type: Unresolved type for LocalPhotoQueries]#kotlinx.coroutines.CoroutineDispatcher/PointingToDeclaration/database/garcia.ludovic.photos.core.database.di/-database-module/provides-photos-local-data-source.html
+$dokka.location:garcia.ludovic.photos.core.database.di/DatabaseModule/providesRoomPhotoDao/#garcia.ludovic.photos.core.database.room.RoomPhotoDatabase/PointingToDeclaration/database/garcia.ludovic.photos.core.database.di/-database-module/provides-room-photo-dao.html
+$dokka.location:garcia.ludovic.photos.core.database.di/DatabaseModule/providesRoomPhotoDatabase/#android.content.Context/PointingToDeclaration/database/garcia.ludovic.photos.core.database.di/-database-module/provides-room-photo-database.html
+$dokka.location:garcia.ludovic.photos.core.database.di/DatabaseModule/providesSqlDriver/#android.content.Context/PointingToDeclaration/database/garcia.ludovic.photos.core.database.di/-database-module/provides-sql-driver.html
+$dokka.location:garcia.ludovic.photos.core.database.room////PointingToDeclaration/database/garcia.ludovic.photos.core.database.room/index.html
+$dokka.location:garcia.ludovic.photos.core.database.room/RoomPhoto///PointingToDeclaration/database/garcia.ludovic.photos.core.database.room/-room-photo/index.html
+$dokka.location:garcia.ludovic.photos.core.database.room/RoomPhoto/RoomPhoto/#kotlin.Int#kotlin.Int#kotlin.String#kotlin.String#kotlin.String/PointingToDeclaration/database/garcia.ludovic.photos.core.database.room/-room-photo/-room-photo.html
+$dokka.location:garcia.ludovic.photos.core.database.room/RoomPhoto/albumId/#/PointingToDeclaration/database/garcia.ludovic.photos.core.database.room/-room-photo/album-id.html
+$dokka.location:garcia.ludovic.photos.core.database.room/RoomPhoto/id/#/PointingToDeclaration/database/garcia.ludovic.photos.core.database.room/-room-photo/id.html
+$dokka.location:garcia.ludovic.photos.core.database.room/RoomPhoto/thumbnailUrl/#/PointingToDeclaration/database/garcia.ludovic.photos.core.database.room/-room-photo/thumbnail-url.html
+$dokka.location:garcia.ludovic.photos.core.database.room/RoomPhoto/title/#/PointingToDeclaration/database/garcia.ludovic.photos.core.database.room/-room-photo/title.html
+$dokka.location:garcia.ludovic.photos.core.database.room/RoomPhoto/url/#/PointingToDeclaration/database/garcia.ludovic.photos.core.database.room/-room-photo/url.html
+$dokka.location:garcia.ludovic.photos.core.database.room/RoomPhotoDao///PointingToDeclaration/database/garcia.ludovic.photos.core.database.room/-room-photo-dao/index.html
+$dokka.location:garcia.ludovic.photos.core.database.room/RoomPhotoDao/delete/#kotlin.Int/PointingToDeclaration/database/garcia.ludovic.photos.core.database.room/-room-photo-dao/delete.html
+$dokka.location:garcia.ludovic.photos.core.database.room/RoomPhotoDao/deleteAll/#/PointingToDeclaration/database/garcia.ludovic.photos.core.database.room/-room-photo-dao/delete-all.html
+$dokka.location:garcia.ludovic.photos.core.database.room/RoomPhotoDao/save/#garcia.ludovic.photos.core.database.room.RoomPhoto/PointingToDeclaration/database/garcia.ludovic.photos.core.database.room/-room-photo-dao/save.html
+$dokka.location:garcia.ludovic.photos.core.database.room/RoomPhotoDao/select/#kotlin.Int/PointingToDeclaration/database/garcia.ludovic.photos.core.database.room/-room-photo-dao/select.html
+$dokka.location:garcia.ludovic.photos.core.database.room/RoomPhotoDao/selectAll/#/PointingToDeclaration/database/garcia.ludovic.photos.core.database.room/-room-photo-dao/select-all.html
+$dokka.location:garcia.ludovic.photos.core.database.room/RoomPhotoDatabase///PointingToDeclaration/database/garcia.ludovic.photos.core.database.room/-room-photo-database/index.html
+$dokka.location:garcia.ludovic.photos.core.database.room/RoomPhotoDatabase/RoomPhotoDatabase/#/PointingToDeclaration/database/garcia.ludovic.photos.core.database.room/-room-photo-database/-room-photo-database.html
+$dokka.location:garcia.ludovic.photos.core.database.room/RoomPhotoDatabase/photoDao/#/PointingToDeclaration/database/garcia.ludovic.photos.core.database.room/-room-photo-database/photo-dao.html
+$dokka.location:garcia.ludovic.photos.core.database////PointingToDeclaration/database/garcia.ludovic.photos.core.database/index.html
+$dokka.location:garcia.ludovic.photos.core.database/DefaultPhotosLocalDataSource///PointingToDeclaration/database/garcia.ludovic.photos.core.database/-default-photos-local-data-source/index.html
+$dokka.location:garcia.ludovic.photos.core.database/DefaultPhotosLocalDataSource/DefaultPhotosLocalDataSource/#[Error type: Unresolved type for LocalPhotoQueries]#kotlinx.coroutines.CoroutineDispatcher/PointingToDeclaration/database/garcia.ludovic.photos.core.database/-default-photos-local-data-source/-default-photos-local-data-source.html
+$dokka.location:garcia.ludovic.photos.core.database/DefaultPhotosLocalDataSource/delete/#kotlin.Int/PointingToDeclaration/database/garcia.ludovic.photos.core.database/-default-photos-local-data-source/delete.html
+$dokka.location:garcia.ludovic.photos.core.database/DefaultPhotosLocalDataSource/deleteAll/#/PointingToDeclaration/database/garcia.ludovic.photos.core.database/-default-photos-local-data-source/delete-all.html
+$dokka.location:garcia.ludovic.photos.core.database/DefaultPhotosLocalDataSource/save/#[Error type: Unresolved type for LocalPhoto]/PointingToDeclaration/database/garcia.ludovic.photos.core.database/-default-photos-local-data-source/save.html
+$dokka.location:garcia.ludovic.photos.core.database/DefaultPhotosLocalDataSource/select/#kotlin.Int/PointingToDeclaration/database/garcia.ludovic.photos.core.database/-default-photos-local-data-source/select.html
+$dokka.location:garcia.ludovic.photos.core.database/DefaultPhotosLocalDataSource/selectAll/#/PointingToDeclaration/database/garcia.ludovic.photos.core.database/-default-photos-local-data-source/select-all.html
+$dokka.location:garcia.ludovic.photos.core.database/DefaultPhotosLocalDataSource/transaction/#kotlin.coroutines.SuspendFunction1[garcia.ludovic.photos.core.database.PhotosLocalDataSource,kotlin.Unit]/PointingToDeclaration/database/garcia.ludovic.photos.core.database/-default-photos-local-data-source/transaction.html
+$dokka.location:garcia.ludovic.photos.core.database/PhotosLocalDataSource///PointingToDeclaration/database/garcia.ludovic.photos.core.database/-photos-local-data-source/index.html
+$dokka.location:garcia.ludovic.photos.core.database/PhotosLocalDataSource/delete/#kotlin.Int/PointingToDeclaration/database/garcia.ludovic.photos.core.database/-photos-local-data-source/delete.html
+$dokka.location:garcia.ludovic.photos.core.database/PhotosLocalDataSource/deleteAll/#/PointingToDeclaration/database/garcia.ludovic.photos.core.database/-photos-local-data-source/delete-all.html
+$dokka.location:garcia.ludovic.photos.core.database/PhotosLocalDataSource/save/#[Error type: Unresolved type for LocalPhoto]/PointingToDeclaration/database/garcia.ludovic.photos.core.database/-photos-local-data-source/save.html
+$dokka.location:garcia.ludovic.photos.core.database/PhotosLocalDataSource/select/#kotlin.Int/PointingToDeclaration/database/garcia.ludovic.photos.core.database/-photos-local-data-source/select.html
+$dokka.location:garcia.ludovic.photos.core.database/PhotosLocalDataSource/selectAll/#/PointingToDeclaration/database/garcia.ludovic.photos.core.database/-photos-local-data-source/select-all.html
+$dokka.location:garcia.ludovic.photos.core.database/PhotosLocalDataSource/transaction/#kotlin.coroutines.SuspendFunction1[garcia.ludovic.photos.core.database.PhotosLocalDataSource,kotlin.Unit]/PointingToDeclaration/database/garcia.ludovic.photos.core.database/-photos-local-data-source/transaction.html
+$dokka.location:garcia.ludovic.photos.core.database/RoomPhotosLocalDataSource///PointingToDeclaration/database/garcia.ludovic.photos.core.database/-room-photos-local-data-source/index.html
+$dokka.location:garcia.ludovic.photos.core.database/RoomPhotosLocalDataSource/RoomPhotosLocalDataSource/#garcia.ludovic.photos.core.database.room.RoomPhotoDao#kotlinx.coroutines.CoroutineDispatcher/PointingToDeclaration/database/garcia.ludovic.photos.core.database/-room-photos-local-data-source/-room-photos-local-data-source.html
+$dokka.location:garcia.ludovic.photos.core.database/RoomPhotosLocalDataSource/delete/#kotlin.Int/PointingToDeclaration/database/garcia.ludovic.photos.core.database/-room-photos-local-data-source/delete.html
+$dokka.location:garcia.ludovic.photos.core.database/RoomPhotosLocalDataSource/deleteAll/#/PointingToDeclaration/database/garcia.ludovic.photos.core.database/-room-photos-local-data-source/delete-all.html
+$dokka.location:garcia.ludovic.photos.core.database/RoomPhotosLocalDataSource/save/#[Error type: Unresolved type for LocalPhoto]/PointingToDeclaration/database/garcia.ludovic.photos.core.database/-room-photos-local-data-source/save.html
+$dokka.location:garcia.ludovic.photos.core.database/RoomPhotosLocalDataSource/select/#kotlin.Int/PointingToDeclaration/database/garcia.ludovic.photos.core.database/-room-photos-local-data-source/select.html
+$dokka.location:garcia.ludovic.photos.core.database/RoomPhotosLocalDataSource/selectAll/#/PointingToDeclaration/database/garcia.ludovic.photos.core.database/-room-photos-local-data-source/select-all.html
+$dokka.location:garcia.ludovic.photos.core.database/RoomPhotosLocalDataSource/transaction/#kotlin.coroutines.SuspendFunction1[garcia.ludovic.photos.core.database.PhotosLocalDataSource,kotlin.Unit]/PointingToDeclaration/database/garcia.ludovic.photos.core.database/-room-photos-local-data-source/transaction.html
+garcia.ludovic.photos.core.database
+garcia.ludovic.photos.core.database.di
+garcia.ludovic.photos.core.database.room
+

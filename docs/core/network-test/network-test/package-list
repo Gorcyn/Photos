@@ -1,0 +1,17 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:garcia.ludovic.photos.core.network.test.di////PointingToDeclaration/network-test/garcia.ludovic.photos.core.network.test.di/index.html
+$dokka.location:garcia.ludovic.photos.core.network.test.di/TestNetworkModule///PointingToDeclaration/network-test/garcia.ludovic.photos.core.network.test.di/-test-network-module/index.html
+$dokka.location:garcia.ludovic.photos.core.network.test.di/TestNetworkModule/providesPhotoNetworkDataSource/#/PointingToDeclaration/network-test/garcia.ludovic.photos.core.network.test.di/-test-network-module/provides-photo-network-data-source.html
+$dokka.location:garcia.ludovic.photos.core.network.test.di/TestNetworkModule/providesPhotosNetworkApi/#/PointingToDeclaration/network-test/garcia.ludovic.photos.core.network.test.di/-test-network-module/provides-photos-network-api.html
+$dokka.location:garcia.ludovic.photos.core.network.test////PointingToDeclaration/network-test/garcia.ludovic.photos.core.network.test/index.html
+$dokka.location:garcia.ludovic.photos.core.network.test/TestPhotoNetworkDataSource///PointingToDeclaration/network-test/garcia.ludovic.photos.core.network.test/-test-photo-network-data-source/index.html
+$dokka.location:garcia.ludovic.photos.core.network.test/TestPhotoNetworkDataSource/TestPhotoNetworkDataSource/#/PointingToDeclaration/network-test/garcia.ludovic.photos.core.network.test/-test-photo-network-data-source/-test-photo-network-data-source.html
+$dokka.location:garcia.ludovic.photos.core.network.test/TestPhotoNetworkDataSource/getPhotoList/#/PointingToDeclaration/network-test/garcia.ludovic.photos.core.network.test/-test-photo-network-data-source/get-photo-list.html
+$dokka.location:garcia.ludovic.photos.core.network.test/TestPhotoNetworkDataSource/willThrow/#/PointingToDeclaration/network-test/garcia.ludovic.photos.core.network.test/-test-photo-network-data-source/will-throw.html
+$dokka.location:garcia.ludovic.photos.core.network.test/TestPhotoNewsApi///PointingToDeclaration/network-test/garcia.ludovic.photos.core.network.test/-test-photo-news-api/index.html
+$dokka.location:garcia.ludovic.photos.core.network.test/TestPhotoNewsApi/TestPhotoNewsApi/#/PointingToDeclaration/network-test/garcia.ludovic.photos.core.network.test/-test-photo-news-api/-test-photo-news-api.html
+$dokka.location:garcia.ludovic.photos.core.network.test/TestPhotoNewsApi/getPhotoList/#/PointingToDeclaration/network-test/garcia.ludovic.photos.core.network.test/-test-photo-news-api/get-photo-list.html
+garcia.ludovic.photos.core.network.test
+garcia.ludovic.photos.core.network.test.di
+

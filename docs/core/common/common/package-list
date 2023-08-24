@@ -1,0 +1,17 @@
+$dokka.format:html-v1
+$dokka.linkExtension:html
+$dokka.location:garcia.ludovic.photos.core.common.di////PointingToDeclaration/common/garcia.ludovic.photos.core.common.di/index.html
+$dokka.location:garcia.ludovic.photos.core.common.di/CommonModule///PointingToDeclaration/common/garcia.ludovic.photos.core.common.di/-common-module/index.html
+$dokka.location:garcia.ludovic.photos.core.common.di/CommonModule/providesIODispatcher/#/PointingToDeclaration/common/garcia.ludovic.photos.core.common.di/-common-module/provides-i-o-dispatcher.html
+$dokka.location:garcia.ludovic.photos.core.common////PointingToDeclaration/common/garcia.ludovic.photos.core.common/index.html
+$dokka.location:garcia.ludovic.photos.core.common/Dispatcher///PointingToDeclaration/common/garcia.ludovic.photos.core.common/-dispatcher/index.html
+$dokka.location:garcia.ludovic.photos.core.common/Dispatcher/photosDispatchers/#/PointingToDeclaration/common/garcia.ludovic.photos.core.common/-dispatcher/photos-dispatchers.html
+$dokka.location:garcia.ludovic.photos.core.common/HiltComponentActivity///PointingToDeclaration/common/garcia.ludovic.photos.core.common/-hilt-component-activity/index.html
+$dokka.location:garcia.ludovic.photos.core.common/HiltComponentActivity/HiltComponentActivity/#/PointingToDeclaration/common/garcia.ludovic.photos.core.common/-hilt-component-activity/-hilt-component-activity.html
+$dokka.location:garcia.ludovic.photos.core.common/PhotosDispatchers.IO///PointingToDeclaration/{"org.jetbrains.dokka.links.EnumEntryDRIExtra":{"key":"org.jetbrains.dokka.links.EnumEntryDRIExtra"}}common/garcia.ludovic.photos.core.common/-photos-dispatchers/-i-o/index.html
+$dokka.location:garcia.ludovic.photos.core.common/PhotosDispatchers///PointingToDeclaration/common/garcia.ludovic.photos.core.common/-photos-dispatchers/index.html
+$dokka.location:garcia.ludovic.photos.core.common/PhotosDispatchers/valueOf/#kotlin.String/PointingToDeclaration/common/garcia.ludovic.photos.core.common/-photos-dispatchers/value-of.html
+$dokka.location:garcia.ludovic.photos.core.common/PhotosDispatchers/values/#/PointingToDeclaration/common/garcia.ludovic.photos.core.common/-photos-dispatchers/values.html
+garcia.ludovic.photos.core.common
+garcia.ludovic.photos.core.common.di
+
