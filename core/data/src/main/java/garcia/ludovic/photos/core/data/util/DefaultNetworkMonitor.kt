@@ -24,9 +24,8 @@ class DefaultNetworkMonitor @Inject constructor(
             VERSION.SDK_INT >= VERSION_CODES.M ->
                 activeNetwork
                     ?.let(::getNetworkCapabilities)
-                    ?.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET)
-                    ?: false
-            else -> activeNetworkInfo?.isConnected ?: false
+                    ?.hasCapability(NetworkCapabilities.NET_CAPABILITY_INTERNET) == true
+            else -> activeNetworkInfo?.isConnected == true
         }
     }
 }

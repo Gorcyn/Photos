@@ -3,26 +3,26 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.hilt)
     alias(libs.plugins.kotlin.android)
-    alias(libs.plugins.kotlin.kapt)
+    alias(libs.plugins.kotlin.ksp)
 }
 
 android {
     namespace = "garcia.ludovic.photos.core.data"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         minSdk = 21
-        targetSdk = 33
+        targetSdk = 34
 
         testInstrumentationRunner = "garcia.ludovic.photos.core.testing.PhotosTestRunner"
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = JavaVersion.VERSION_11.toString()
     }
 }
 
@@ -36,7 +36,7 @@ dependencies {
     implementation(libs.kotlinx.coroutines.core)
     implementation(libs.kotlinx.coroutines.play.services)
 
-    kapt(libs.hilt.android.compiler)
+    ksp(libs.hilt.android.compiler)
 
     testImplementation(project(":core:testing"))
     testImplementation(project(":core:data-test"))
@@ -48,9 +48,5 @@ dependencies {
     androidTestImplementation(project(":core:database-test"))
     androidTestImplementation(project(":core:network-test"))
 
-    kaptAndroidTest(libs.hilt.android.compiler)
-}
-
-kapt {
-    correctErrorTypes = true
+    kspAndroidTest(libs.hilt.android.compiler)
 }

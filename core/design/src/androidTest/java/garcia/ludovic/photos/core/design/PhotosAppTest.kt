@@ -15,13 +15,11 @@ import garcia.ludovic.photos.core.common.HiltComponentActivity
 import garcia.ludovic.photos.core.design.animation.animatedComposable
 import garcia.ludovic.photos.core.design.test.assertBackgroundColor
 import garcia.ludovic.photos.core.design.theme.PhotosTheme
-import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runTest
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 
-@OptIn(ExperimentalCoroutinesApi::class)
 @HiltAndroidTest
 class PhotosAppTest {
 

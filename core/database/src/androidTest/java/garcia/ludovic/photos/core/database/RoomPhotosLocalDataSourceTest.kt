@@ -5,14 +5,12 @@ import androidx.test.core.app.ApplicationProvider
 import garcia.ludovic.photos.core.database.room.RoomPhotoDatabase
 import garcia.ludovic.photos.core.database.test.inMemoryRoomPhotoDatabase
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Test
 
-@OptIn(ExperimentalCoroutinesApi::class)
 class RoomPhotosLocalDataSourceTest {
 
     private val context = ApplicationProvider.getApplicationContext<Context>()

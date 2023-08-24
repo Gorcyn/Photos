@@ -1,12 +1,10 @@
 package garcia.ludovic.photos.core.data.test.util
 
-import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertFalse
 import org.junit.Assert.assertTrue
 import org.junit.Test
 
-@OptIn(ExperimentalCoroutinesApi::class)
 class TestNetworkMonitorTest {
 
     private val testNetworkMonitor = TestNetworkMonitor()

@@ -3,38 +3,34 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.hilt)
     alias(libs.plugins.kotlin.android)
-    alias(libs.plugins.kotlin.kapt)
+    alias(libs.plugins.kotlin.ksp)
     alias(libs.plugins.sqldelight)
 }
 
 android {
     namespace = "garcia.ludovic.photos.core.database"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         minSdk = 21
-        targetSdk = 33
+        targetSdk = 34
 
         testInstrumentationRunner = "garcia.ludovic.photos.core.testing.PhotosTestRunner"
-
-        // Room
-        javaCompileOptions {
-            annotationProcessorOptions {
-                arguments += mapOf(
-                    "room.schemaLocation" to "$projectDir/src/main/room",
-                    "room.incremental" to "true",
-                    "room.expandProjection" to "true"
-                )
-            }
-        }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = JavaVersion.VERSION_11.toString()
     }
+}
+
+ksp {
+    // Room
+    arg("room.schemaLocation", "$projectDir/src/main/room")
+    arg("room.incremental", "true")
+    arg("room.expandProjection", "true")
 }
 
 dependencies {
@@ -47,10 +43,11 @@ dependencies {
     implementation(libs.room.runtime)
     implementation(libs.sqldelight.android.driver)
     implementation(libs.sqldelight.coroutines.extensions)
+    implementation(libs.sqldelight.primitive.adapters)
     implementation(libs.sqldelight.runtime)
 
-    kapt(libs.hilt.android.compiler)
-    kapt(libs.room.compiler)
+    ksp(libs.hilt.android.compiler)
+    ksp(libs.room.compiler)
 
     testImplementation(project(":core:database-test"))
     testImplementation(project(":core:testing"))
@@ -59,18 +56,16 @@ dependencies {
     androidTestImplementation(project(":core:database-test"))
     androidTestImplementation(project(":core:testing"))
 
-    kaptAndroidTest(libs.hilt.android.compiler)
-    kaptAndroidTest(libs.room.compiler)
-}
-
-kapt {
-    correctErrorTypes = true
+    kspAndroidTest(libs.hilt.android.compiler)
+    kspAndroidTest(libs.room.compiler)
 }
 
 sqldelight {
-    database("PhotosDatabase") {
-        packageName = "garcia.ludovic.photos.core.database"
-        sourceFolders = listOf("sqldelight")
-        schemaOutputDirectory = file("build/dbs")
+    databases {
+        create("PhotosDatabase") {
+            packageName.set("garcia.ludovic.photos.core.database")
+            srcDirs.setFrom("src/main/sqldelight")
+            schemaOutputDirectory.set(file("build/dbs"))
+        }
     }
 }

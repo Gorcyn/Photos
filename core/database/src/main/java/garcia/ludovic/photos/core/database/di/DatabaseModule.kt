@@ -2,8 +2,9 @@ package garcia.ludovic.photos.core.database.di
 
 import android.content.Context
 import androidx.room.Room
-import com.squareup.sqldelight.android.AndroidSqliteDriver
-import com.squareup.sqldelight.db.SqlDriver
+import app.cash.sqldelight.adapter.primitive.IntColumnAdapter
+import app.cash.sqldelight.db.SqlDriver
+import app.cash.sqldelight.driver.android.AndroidSqliteDriver
 import dagger.Module
 import dagger.Provides
 import dagger.hilt.InstallIn
@@ -12,6 +13,7 @@ import dagger.hilt.components.SingletonComponent
 import garcia.ludovic.photos.core.common.Dispatcher
 import garcia.ludovic.photos.core.common.PhotosDispatchers
 import garcia.ludovic.photos.core.database.DefaultPhotosLocalDataSource
+import garcia.ludovic.photos.core.database.LocalPhoto
 import garcia.ludovic.photos.core.database.LocalPhotoQueries
 import garcia.ludovic.photos.core.database.PhotosDatabase
 import garcia.ludovic.photos.core.database.PhotosLocalDataSource
@@ -42,7 +44,13 @@ object DatabaseModule {
     @Singleton
     fun providesPhotosDatabase(
         sqlDriver: SqlDriver
-    ): PhotosDatabase = PhotosDatabase(driver = sqlDriver)
+    ): PhotosDatabase = PhotosDatabase(
+        driver = sqlDriver,
+        localPhotoAdapter = LocalPhoto.Adapter(
+            idAdapter = IntColumnAdapter,
+            albumIdAdapter = IntColumnAdapter
+        )
+    )
 
     @Provides
     @Singleton

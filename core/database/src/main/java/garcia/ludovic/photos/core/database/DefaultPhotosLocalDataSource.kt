@@ -1,7 +1,7 @@
 package garcia.ludovic.photos.core.database
 
-import com.squareup.sqldelight.runtime.coroutines.asFlow
-import com.squareup.sqldelight.runtime.coroutines.mapToList
+import app.cash.sqldelight.coroutines.asFlow
+import app.cash.sqldelight.coroutines.mapToList
 import garcia.ludovic.photos.core.common.Dispatcher
 import garcia.ludovic.photos.core.common.PhotosDispatchers.IO
 import kotlinx.coroutines.CoroutineDispatcher

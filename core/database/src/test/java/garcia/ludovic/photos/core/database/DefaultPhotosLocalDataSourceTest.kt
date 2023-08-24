@@ -2,7 +2,6 @@ package garcia.ludovic.photos.core.database
 
 import garcia.ludovic.photos.core.database.test.InMemoryPhotosDatabase
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertEquals
@@ -10,7 +9,6 @@ import org.junit.Assert.assertNotNull
 import org.junit.Before
 import org.junit.Test
 
-@OptIn(ExperimentalCoroutinesApi::class)
 class DefaultPhotosLocalDataSourceTest {
 
     private var photosDatabase: PhotosDatabase = InMemoryPhotosDatabase()

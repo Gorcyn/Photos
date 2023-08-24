@@ -2,12 +2,10 @@ package garcia.ludovic.photos.core.network
 
 import garcia.ludovic.photos.core.network.model.NetworkPhoto
 import garcia.ludovic.photos.core.network.test.TestPhotoNewsApi
-import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
-@OptIn(ExperimentalCoroutinesApi::class)
 class DefaultPhotoNetworkDataSourceTest {
 
     private var defaultPhotoNetworkDataSourceTest = DefaultPhotoNetworkDataSource(

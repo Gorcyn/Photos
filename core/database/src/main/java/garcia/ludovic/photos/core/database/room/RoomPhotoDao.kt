@@ -13,14 +13,14 @@ interface RoomPhotoDao {
     fun selectAll(): Flow<List<RoomPhoto>>
 
     @Query("SELECT * FROM localPhoto WHERE id = (:id)")
-    suspend fun select(id: Int): RoomPhoto?
+    fun select(id: Int): RoomPhoto?
 
     @Insert(onConflict = OnConflictStrategy.REPLACE)
-    suspend fun save(photo: RoomPhoto)
+    fun save(photo: RoomPhoto)
 
     @Query("DELETE FROM localPhoto WHERE id = (:id)")
-    suspend fun delete(id: Int)
+    fun delete(id: Int)
 
     @Query("DELETE FROM localPhoto")
-    suspend fun deleteAll()
+    fun deleteAll()
 }

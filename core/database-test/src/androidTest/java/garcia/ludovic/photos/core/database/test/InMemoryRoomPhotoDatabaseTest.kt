@@ -4,13 +4,11 @@ import android.content.Context
 import androidx.test.core.app.ApplicationProvider
 import garcia.ludovic.photos.core.database.room.RoomPhoto
 import garcia.ludovic.photos.core.database.room.RoomPhotoDatabase
-import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
-@OptIn(ExperimentalCoroutinesApi::class)
 class InMemoryRoomPhotoDatabaseTest {
 
     private lateinit var inMemoryRoomPhotoDatabase: RoomPhotoDatabase

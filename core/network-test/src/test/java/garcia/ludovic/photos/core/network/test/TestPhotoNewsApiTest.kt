@@ -1,12 +1,10 @@
 package garcia.ludovic.photos.core.network.test
 
 import garcia.ludovic.photos.core.network.model.NetworkPhoto
-import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertEquals
 import org.junit.Test
 
-@OptIn(ExperimentalCoroutinesApi::class)
 class TestPhotoNewsApiTest {
 
     private val photosNewsApi = TestPhotoNewsApi()

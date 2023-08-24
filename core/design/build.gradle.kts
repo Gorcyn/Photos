@@ -3,26 +3,26 @@ plugins {
     alias(libs.plugins.android.library)
     alias(libs.plugins.hilt)
     alias(libs.plugins.kotlin.android)
-    alias(libs.plugins.kotlin.kapt)
+    alias(libs.plugins.kotlin.ksp)
 }
 
 android {
     namespace = "garcia.ludovic.photos.core.design"
-    compileSdk = 33
+    compileSdk = 34
 
     defaultConfig {
         minSdk = 21
-        targetSdk = 33
+        targetSdk = 34
 
         testInstrumentationRunner = "garcia.ludovic.photos.core.testing.PhotosTestRunner"
     }
 
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = JavaVersion.VERSION_11.toString()
     }
     buildFeatures {
         compose = true
@@ -30,7 +30,7 @@ android {
     composeOptions {
         kotlinCompilerExtensionVersion = libs.versions.kotlinCompilerExtension.get()
     }
-    packagingOptions {
+    packaging {
         resources {
             excludes += "/META-INF/{AL2.0,LGPL2.1}"
         }
@@ -51,15 +51,11 @@ dependencies {
     implementation(libs.coil.compose)
     implementation(libs.hilt.android)
 
-    kapt(libs.hilt.android.compiler)
+    ksp(libs.hilt.android.compiler)
 
     androidTestImplementation(project(":core:common"))
     androidTestImplementation(project(":core:design-test"))
     androidTestImplementation(project(":core:testing"))
 
-    kaptAndroidTest(libs.hilt.android.compiler)
-}
-
-kapt {
-    correctErrorTypes = true
+    kspAndroidTest(libs.hilt.android.compiler)
 }

@@ -4,7 +4,6 @@ import androidx.lifecycle.SavedStateHandle
 import garcia.ludovic.photos.core.data.test.TestPhotoRepository
 import garcia.ludovic.photos.core.testing.util.DefaultDispatcherRule
 import garcia.ludovic.photos.feature.photo.details.navigation.photoIdArg
-import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.runTest
@@ -15,7 +14,6 @@ import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 
-@OptIn(ExperimentalCoroutinesApi::class)
 class PhotoDetailsViewModelTest {
 
     @get:Rule

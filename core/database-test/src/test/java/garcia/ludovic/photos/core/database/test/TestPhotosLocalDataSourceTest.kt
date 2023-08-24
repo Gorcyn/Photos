@@ -2,14 +2,12 @@ package garcia.ludovic.photos.core.database.test
 
 import garcia.ludovic.photos.core.database.LocalPhoto
 import garcia.ludovic.photos.core.database.PhotosLocalDataSource
-import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert
 import org.junit.Before
 import org.junit.Test
 
-@OptIn(ExperimentalCoroutinesApi::class)
 class TestPhotosLocalDataSourceTest {
 
     private val photosLocalDataSource: PhotosLocalDataSource = TestPhotosLocalDataSource()

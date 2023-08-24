@@ -9,7 +9,6 @@ import garcia.ludovic.photos.core.network.BuildConfig
 import garcia.ludovic.photos.core.network.DefaultPhotoNetworkDataSource
 import garcia.ludovic.photos.core.network.PhotoNetworkDataSource
 import garcia.ludovic.photos.core.network.retrofit.PhotoNetworkApi
-import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.json.Json
 import okhttp3.MediaType.Companion.toMediaType
 import okhttp3.OkHttpClient
@@ -60,7 +59,6 @@ object NetworkModule {
         .baseUrl(BuildConfig.API_URL)
         .client(okHttpClient)
         .addConverterFactory(
-            @OptIn(ExperimentalSerializationApi::class)
             networkJson.asConverterFactory("application/json".toMediaType())
         )
         .build()

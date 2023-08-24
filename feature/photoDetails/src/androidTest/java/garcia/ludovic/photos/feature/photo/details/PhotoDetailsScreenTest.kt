@@ -11,13 +11,11 @@ import garcia.ludovic.photos.core.common.HiltComponentActivity
 import garcia.ludovic.photos.core.data.model.Photo
 import garcia.ludovic.photos.core.design.theme.PhotosTheme
 import garcia.ludovic.photos.feature.photo.details.ui.PhotoDetailsScreen
-import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.test.runTest
 import org.junit.Before
 import org.junit.Rule
 import org.junit.Test
 
-@OptIn(ExperimentalCoroutinesApi::class)
 @HiltAndroidTest
 class PhotoDetailsScreenTest {
 

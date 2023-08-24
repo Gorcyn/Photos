@@ -7,7 +7,6 @@ import garcia.ludovic.photos.core.database.LocalPhoto
 import garcia.ludovic.photos.core.database.test.TestPhotosLocalDataSource
 import garcia.ludovic.photos.core.network.test.TestPhotoNetworkDataSource
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.ExperimentalCoroutinesApi
 import kotlinx.coroutines.flow.first
 import kotlinx.coroutines.test.runTest
 import org.junit.Assert.assertEquals
@@ -16,7 +15,6 @@ import org.junit.Assert.assertTrue
 import org.junit.Before
 import org.junit.Test
 
-@OptIn(ExperimentalCoroutinesApi::class)
 class DefaultPhotoRepositoryTest {
 
     private var photoNetworkDataSource = TestPhotoNetworkDataSource()
@@ -55,7 +53,7 @@ class DefaultPhotoRepositoryTest {
 
         // Validate database is still empty
         val localList = photosLocalDataSource.selectAll().first()
-        val expectedLocalList = emptyList<Photo>()
+        val expectedLocalList = emptyList<LocalPhoto>()
         assertEquals(expectedLocalList, localList)
     }
 
